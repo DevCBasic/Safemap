@@ -1,0 +1,783 @@
+2025-10-06 00:08:23,513 - INFO - ℹ OpenAI API not configured - using enhanced rule-based extraction
+2025-10-06 00:08:23,513 - INFO - ============================================================
+2025-10-06 00:08:23,513 - INFO - SafeMap Crawler - Enhanced with RSS Debug
+2025-10-06 00:08:23,513 - INFO - ============================================================
+2025-10-06 00:08:23,514 - INFO - JSON file is empty, starting fresh
+2025-10-06 00:08:23,514 - INFO - Loaded 0 existing events
+2025-10-06 00:08:23,514 - INFO - 
+============================================================
+2025-10-06 00:08:23,514 - INFO - PHASE 1: Collecting URLs from RSS feeds
+2025-10-06 00:08:23,514 - INFO - ============================================================
+2025-10-06 00:08:23,514 - INFO - Crawling RSS: VnExpress - https://vnexpress.net/rss/tin-moi-nhat.rss
+2025-10-06 00:08:23,681 - INFO -   Feed status: 200
+2025-10-06 00:08:23,681 - INFO -   Feed entries: 51
+2025-10-06 00:08:23,682 - INFO - ✓ Found 50 articles from last 24h for VnExpress
+2025-10-06 00:08:24,682 - INFO - Crawling RSS: Dân Trí - https://dantri.com.vn/rss/trang-chu.rss
+2025-10-06 00:08:24,779 - INFO -   Feed status: 404
+2025-10-06 00:08:24,779 - INFO -   Feed entries: 0
+2025-10-06 00:08:24,779 - WARNING -   Feed parsing warning: text/html is not an XML media type
+2025-10-06 00:08:24,779 - WARNING -   No entries found, trying next URL...
+2025-10-06 00:08:24,780 - INFO - Crawling RSS: Dân Trí - https://dantri.com.vn/rss/xa-hoi.rss
+2025-10-06 00:08:25,053 - INFO -   Feed status: 200
+2025-10-06 00:08:25,053 - INFO -   Feed entries: 100
+2025-10-06 00:08:25,054 - WARNING -   No recent articles found, trying next URL...
+2025-10-06 00:08:25,054 - WARNING - ✗ No articles found for Dân Trí from any RSS URL
+2025-10-06 00:08:26,054 - INFO - Crawling RSS: Vietnamnet - https://vietnamnet.vn/rss/thoi-su.rss
+2025-10-06 00:08:26,294 - INFO -   Feed status: 301
+2025-10-06 00:08:26,294 - INFO -   Feed entries: 60
+2025-10-06 00:08:26,294 - INFO - ✓ Found 26 articles from last 24h for Vietnamnet
+2025-10-06 00:08:27,295 - INFO - Crawling RSS: Zingnews - https://zingnews.vn/rss
+2025-10-06 00:08:27,657 - INFO -   Feed status: 301
+2025-10-06 00:08:27,657 - INFO -   Feed entries: 0
+2025-10-06 00:08:27,657 - WARNING -   Feed parsing warning: text/html;charset=iso-8859-1 is not an XML media type
+2025-10-06 00:08:27,657 - WARNING -   No entries found, trying next URL...
+2025-10-06 00:08:27,657 - INFO - Crawling RSS: Zingnews - https://zingnews.vn/trang-chu.rss
+2025-10-06 00:08:28,714 - INFO -   Feed status: 301
+2025-10-06 00:08:28,714 - INFO -   Feed entries: 0
+2025-10-06 00:08:28,715 - WARNING -   Feed parsing warning: <unknown>:52:295: not well-formed (invalid token)
+2025-10-06 00:08:28,715 - WARNING -   No entries found, trying next URL...
+2025-10-06 00:08:28,715 - WARNING - ✗ No articles found for Zingnews from any RSS URL
+2025-10-06 00:08:29,715 - INFO - Crawling RSS: Tuổi Trẻ - https://tuoitre.vn/rss/tin-moi-nhat.rss
+2025-10-06 00:08:29,901 - INFO -   Feed status: 200
+2025-10-06 00:08:29,901 - INFO -   Feed entries: 50
+2025-10-06 00:08:29,902 - WARNING -   No recent articles found, trying next URL...
+2025-10-06 00:08:29,902 - INFO - Crawling RSS: Tuổi Trẻ - https://tuoitre.vn/rss/thoi-su.rss
+2025-10-06 00:08:30,069 - INFO -   Feed status: 200
+2025-10-06 00:08:30,070 - INFO -   Feed entries: 50
+2025-10-06 00:08:30,070 - WARNING -   No recent articles found, trying next URL...
+2025-10-06 00:08:30,070 - WARNING - ✗ No articles found for Tuổi Trẻ from any RSS URL
+2025-10-06 00:08:31,071 - INFO - Crawling RSS: 24h - https://www.24h.com.vn/upload/rss/tintuctrongngay.rss
+2025-10-06 00:08:31,302 - INFO -   Feed status: 200
+2025-10-06 00:08:31,302 - INFO -   Feed entries: 24
+2025-10-06 00:08:31,303 - WARNING -   No recent articles found, trying next URL...
+2025-10-06 00:08:31,303 - INFO - Crawling RSS: 24h - https://www.24h.com.vn/upload/rss/tinmoi.rss
+2025-10-06 00:08:31,454 - INFO -   Feed status: 200
+2025-10-06 00:08:31,454 - INFO -   Feed entries: 0
+2025-10-06 00:08:31,454 - WARNING -   No entries found, trying next URL...
+2025-10-06 00:08:31,454 - WARNING - ✗ No articles found for 24h from any RSS URL
+2025-10-06 00:08:32,455 - INFO - 
+------------------------------------------------------------
+2025-10-06 00:08:32,455 - INFO - RSS Collection Summary:
+2025-10-06 00:08:32,455 - INFO -   VnExpress: 50 articles
+2025-10-06 00:08:32,455 - INFO -   Dân Trí: 0 articles
+2025-10-06 00:08:32,455 - INFO -   Vietnamnet: 26 articles
+2025-10-06 00:08:32,455 - INFO -   Zingnews: 0 articles
+2025-10-06 00:08:32,456 - INFO -   Tuổi Trẻ: 0 articles
+2025-10-06 00:08:32,456 - INFO -   24h: 0 articles
+2025-10-06 00:08:32,456 - INFO - Total URLs collected: 76
+2025-10-06 00:08:32,456 - INFO - ------------------------------------------------------------
+
+2025-10-06 00:08:32,456 - INFO - 
+============================================================
+2025-10-06 00:08:32,456 - INFO - PHASE 2: Processing articles
+2025-10-06 00:08:32,456 - INFO - ============================================================
+2025-10-06 00:08:32,456 - INFO - Processing 76 articles with 8 workers...
+2025-10-06 00:08:32,457 - INFO - Fetching: https://vnexpress.net/nhieu-nguoi-cai-nghien-ma-tuy-o-an-giang-tron-trai-4947571.html
+2025-10-06 00:08:32,458 - INFO - Fetching: https://vnexpress.net/ukraine-tuyen-bo-ha-ten-lua-sieu-vuot-am-kinzhal-cua-nga-4947564.html
+2025-10-06 00:08:32,459 - INFO - Fetching: https://vnexpress.net/nua-tan-ma-tuy-nguy-trang-nhu-bao-gao-tren-xe-dau-keo-4947562.html
+2025-10-06 00:08:32,460 - INFO - Fetching: https://vnexpress.net/loat-khi-cau-buon-lau-lam-te-liet-san-bay-lon-nhat-litva-4947547.html
+2025-10-06 00:08:32,468 - INFO - Fetching: https://vnexpress.net/bo-hoi-dong-truong-trong-co-so-giao-duc-cong-lap-4947552.html
+2025-10-06 00:08:32,471 - INFO - Fetching: https://vnexpress.net/van-chuyen-nua-tan-ma-tuy-tren-xe-dau-keo-o-mien-trung-4947554.html
+2025-10-06 00:08:32,474 - INFO - Fetching: https://vnexpress.net/cong-an-co-34-nguoi-du-dai-hoi-dang-lan-thu-14-4947549.html
+2025-10-06 00:08:32,476 - INFO - Fetching: https://vnexpress.net/chong-dinh-goi-me-vo-luc-4-gio-sang-de-tim-dong-minh-khi-cai-nhau-voi-toi-4947464.html
+2025-10-06 00:08:32,871 - INFO - Fetching: https://vnexpress.net/song-hye-kyo-bien-hoa-phong-cach-4947518.html
+2025-10-06 00:08:33,057 - INFO - Fetching: https://vnexpress.net/giong-loc-lam-toc-mai-hu-hong-nhieu-nha-o-nghe-an-ha-tinh-4947548.html
+2025-10-06 00:08:33,181 - INFO - Fetching: https://vnexpress.net/thu-tuong-gruzia-cao-buoc-nguoi-bieu-tinh-muon-dao-chinh-4947506.html
+2025-10-06 00:08:33,204 - INFO - Fetching: https://vnexpress.net/nghich-ly-hoc-vet-hoc-tu-nhung-diem-cao-4947443.html
+2025-10-06 00:08:33,207 - INFO - Fetching: https://vnexpress.net/gui-nguoi-dan-ong-dang-tim-moi-quan-he-truong-thanh-sau-sac-4947418.html
+2025-10-06 00:08:33,228 - INFO - Fetching: https://vnexpress.net/tam-soat-phat-hien-som-ung-thu-da-day-dai-truc-trang-the-nao-4947396.html
+2025-10-06 00:08:33,274 - INFO - Fetching: https://vnexpress.net/quang-ninh-hai-phong-cap-tap-ung-pho-bao-matmo-4947519.html
+2025-10-06 00:08:33,300 - INFO - Fetching: https://vnexpress.net/chu-nha-nghi-o-nhat-len-chuoc-thuoc-xam-hai-nhieu-khach-nu-4947538.html
+2025-10-06 00:08:33,411 - INFO - Fetching: https://vnexpress.net/bac-si-my-bi-kien-sau-khi-khach-chet-vi-nho-rang-4947540.html
+2025-10-06 00:08:33,493 - INFO - Fetching: https://vnexpress.net/hinh-anh-bao-matmo-quet-qua-trung-quoc-4947542.html
+2025-10-06 00:08:33,631 - INFO - Fetching: https://vnexpress.net/vingroup-de-xuat-xay-cau-vuot-bien-noi-can-gio-vung-tau-4947543.html
+2025-10-06 00:08:33,696 - INFO - Fetching: https://vnexpress.net/chu-tich-ha-noi-ung-pho-bao-can-linh-hoat-tranh-xao-tron-cuoc-song-nguoi-dan-4947507.html
+2025-10-06 00:08:33,920 - INFO - Fetching: https://vnexpress.net/nuoc-nao-dung-lich-cham-hon-7-nam-so-voi-the-gioi-4947539.html
+2025-10-06 00:08:33,923 - INFO - Fetching: https://vnexpress.net/phong-thi-nghiem-nuoi-nao-mini-de-van-hanh-may-tinh-4947535.html
+2025-10-06 00:08:33,932 - INFO - Fetching: https://vnexpress.net/noi-nao-co-nhieu-gio-nhat-the-gioi-4947433.html
+2025-10-06 00:08:34,013 - INFO - Fetching: https://vnexpress.net/buoc-di-chua-tung-co-cua-ong-trump-khi-ky-sac-lenh-bao-ve-qatar-4946213.html
+2025-10-06 00:08:34,045 - INFO - Fetching: https://vnexpress.net/co-hoi-mua-ve-som-concert-g-dragon-khi-mo-the-vpbank-mastercard-4947526.html
+2025-10-06 00:08:34,109 - INFO - Fetching: https://vnexpress.net/mat-sach-tien-tiet-kiem-vi-lua-dao-truc-tuyen-ba-lao-kien-ngan-hang-4947508.html
+2025-10-06 00:08:34,173 - INFO - Fetching: https://vnexpress.net/bao-matmo-dem-nay-vao-bien-gioi-viet-trung-4947522.html
+2025-10-06 00:08:34,247 - INFO - Fetching: https://vnexpress.net/vung-trong-hoa-rau-lon-nhat-ha-noi-thiet-hai-nang-sau-bao-bualoi-4947457.html
+2025-10-06 00:08:34,423 - INFO - Fetching: https://vnexpress.net/bi-an-thi-the-noi-tieng-nhat-everest-4947365.html
+2025-10-06 00:08:34,495 - INFO - Fetching: https://vnexpress.net/chong-bat-nhan-khi-ngoai-tinh-luc-toi-bau-4946757.html
+2025-10-06 00:08:34,506 - INFO - Fetching: https://vnexpress.net/hai-phong-co-the-hoan-thanh-11-900-can-nha-xa-hoi-cuoi-nam-nay-4947479.html
+2025-10-06 00:08:34,682 - INFO - Fetching: https://vnexpress.net/chuyen-gia-khong-uong-ruou-bia-cung-la-mot-lua-chon-trach-nhiem-4947514.html
+2025-10-06 00:08:34,724 - INFO - Fetching: https://vnexpress.net/thu-truong-tai-chinh-toi-da-5-doanh-nghiep-duoc-thi-diem-giao-dich-tien-ma-hoa-4947529.html
+2025-10-06 00:08:34,747 - INFO - Fetching: https://vnexpress.net/bat-dau-sap-nhap-truong-dai-hoc-tu-nam-2026-4947516.html
+2025-10-06 00:08:34,763 - INFO - Fetching: https://vnexpress.net/nguoi-ha-noi-tim-cach-bao-ve-oto-truoc-bao-matmo-4947408.html
+2025-10-06 00:08:34,851 - INFO - Fetching: https://vnexpress.net/my-nu-tan-cuong-hoa-tien-nu-cung-trang-4947510.html
+2025-10-06 00:08:34,911 - INFO - Fetching: https://vnexpress.net/tau-cho-11-nguoi-bi-tong-chim-ngoai-khoi-4947515.html
+2025-10-06 00:08:35,042 - INFO - Fetching: https://vnexpress.net/diem-tin-21h-quang-ninh-hai-phong-cap-tap-ung-pho-bao-matmo-bat-dau-sap-nhap-truong-dai-hoc-tu-nam-2026-4947511.html
+2025-10-06 00:08:35,145 - INFO - Fetching: https://vnexpress.net/ha-noi-cho-2-3-trieu-hoc-sinh-nghi-hoc-ngay-6-10-4947504.html
+2025-10-06 00:08:35,178 - INFO - Fetching: https://vnexpress.net/gui-nguoi-cung-em-qua-mua-giong-bao-4947416.html
+2025-10-06 00:08:35,266 - INFO - Fetching: https://vnexpress.net/ai-co-the-khien-ke-tan-cong-mang-de-dang-tao-ma-doc-4946636.html
+2025-10-06 00:08:35,372 - INFO - Fetching: https://vnexpress.net/can-bo-dien-chinh-phu-quan-ly-se-duoc-danh-gia-hang-thang-4947496.html
+2025-10-06 00:08:35,453 - INFO - Fetching: https://vnexpress.net/bao-matmo-do-bo-trung-quoc-hang-tram-nghin-nguoi-phai-so-tan-4947497.html
+2025-10-06 00:08:35,492 - INFO - Fetching: https://vnexpress.net/trung-quoc-thu-nghiem-trung-tam-du-lieu-duoi-nuoc-4947470.html
+2025-10-06 00:08:35,584 - INFO - Fetching: https://vnexpress.net/5-cach-tu-kiem-tra-gan-nhiem-mo-tai-nha-4947427.html
+2025-10-06 00:08:35,655 - INFO - Fetching: https://vnexpress.net/senne-lammens-tu-chang-thu-mon-quen-gang-tay-den-niem-hy-vong-o-man-utd-4947501.html
+2025-10-06 00:08:35,771 - INFO - Fetching: https://vnexpress.net/yeu-cau-liem-chinh-trong-thi-khoa-hoc-ky-thuat-cua-hoc-sinh-4947487.html
+2025-10-06 00:08:35,828 - INFO - Fetching: https://vnexpress.net/nghe-si-luu-hong-quang-se-doc-tau-ba-ban-nhac-kinh-dien-4946080.html
+2025-10-06 00:08:35,865 - INFO - Fetching: https://vnexpress.net/bai-toan-di-chuyen-2-que-diem-thu-thach-iq-cua-ban-4947006.html
+2025-10-06 00:08:35,996 - INFO - Fetching: https://vnexpress.net/ntk-viet-gioi-thieu-dam-cam-hung-a-dong-o-paris-4947180.html
+2025-10-06 00:08:36,012 - INFO - Fetching: https://vietnamnet.vn/giong-loc-lam-sap-hang-loat-ngoi-nha-mai-ton-bay-bay-tu-tung-o-nghe-an-2449444.html
+2025-10-06 00:08:36,074 - INFO - Fetching: https://vietnamnet.vn/du-bao-thoi-tiet-6-10-2025-bao-so-11-do-bo-dat-lien-mien-bac-gio-manh-mua-lon-2449372.html
+2025-10-06 00:08:36,113 - INFO - Fetching: https://vietnamnet.vn/ha-noi-phat-hien-thi-the-nam-gioi-nam-bat-thuong-o-hien-tang-cao-toa-nha-2449427.html
+2025-10-06 00:08:36,237 - INFO - Fetching: https://vietnamnet.vn/clip-bat-2-doi-tuong-nguoi-lao-van-chuyen-hang-chuc-bao-tai-chua-500kg-ma-tuy-2449424.html
+2025-10-06 00:08:36,252 - INFO - Fetching: https://vietnamnet.vn/bao-so-11-matmo-vao-vinh-bac-bo-diem-ten-khu-vuc-va-thoi-diem-gio-manh-2449368.html
+2025-10-06 00:08:36,333 - INFO - Fetching: https://vietnamnet.vn/sau-metro-4-ty-usd-vingroup-de-xuat-lam-tiep-duong-vuot-bien-can-gio-vung-tau-2449417.html
+2025-10-06 00:08:36,419 - INFO - Fetching: https://vietnamnet.vn/tau-bay-boc-khoi-khi-chuan-bi-cat-canh-tu-tphcm-di-ha-noi-2449411.html
+2025-10-06 00:08:36,623 - INFO - Fetching: https://vietnamnet.vn/hai-me-con-bi-hanh-hung-giua-duong-nan-nhan-mang-bau-7-tuan-phai-nhap-vien-2449393.html
+2025-10-06 00:08:37,053 - INFO - Fetching: https://vietnamnet.vn/bao-so-11-matmo-co-the-vao-quang-ninh-dem-nay-gio-manh-nhat-cap-8-9-2449357.html
+2025-10-06 00:08:37,280 - INFO - Fetching: https://vietnamnet.vn/hien-trang-bat-ngo-tai-ke-bien-o-ninh-binh-sau-6-ngay-bi-song-danh-sap-2449337.html
+2025-10-06 00:08:37,477 - INFO - Fetching: https://vietnamnet.vn/danh-tinh-nghi-pham-dam-co-gai-tu-vong-tren-via-he-trong-dem-o-tphcm-2449381.html
+2025-10-06 00:08:37,937 - INFO - Fetching: https://vietnamnet.vn/chay-xe-giuong-nam-tren-cao-toc-tphcm-trung-luong-hanh-khach-hoang-loan-2449373.html
+2025-10-06 00:08:38,268 - INFO - Fetching: https://vietnamnet.vn/tphcm-tang-toc-du-an-giao-thong-trong-diem-giai-ngan-dau-tu-cong-quyet-dat-95-2449355.html
+2025-10-06 00:08:38,280 - INFO - Fetching: https://vietnamnet.vn/1-thang-camera-ai-o-tphcm-phat-hien-hon-3-100-truong-hop-vi-pham-giao-thong-2449342.html
+2025-10-06 00:08:38,629 - INFO - Fetching: https://vietnamnet.vn/nhung-san-bay-nao-bi-anh-huong-truc-tiep-boi-bao-matmo-2449335.html
+2025-10-06 00:08:39,023 - INFO - Fetching: https://vietnamnet.vn/giai-cuu-2-nan-nhan-ket-trong-cabin-xe-dau-keo-sau-tai-nan-tren-cao-toc-2449333.html
+2025-10-06 00:08:39,067 - INFO - Fetching: https://vietnamnet.vn/bat-tam-giam-mot-facebooker-keu-goi-tu-thien-de-chiem-doat-tai-san-2449331.html
+2025-10-06 00:08:39,196 - INFO - Fetching: https://vietnamnet.vn/18-ong-chu-thuy-dien-nhan-lenh-khan-cua-chu-tich-tinh-2449286.html
+2025-10-06 00:08:39,670 - INFO - Fetching: https://vietnamnet.vn/bao-so-11-matmo-dang-giai-doan-manh-nhat-thoi-diem-tac-dong-dat-lien-nuoc-ta-2449194.html
+2025-10-06 00:08:39,784 - INFO - Fetching: https://vietnamnet.vn/vi-sao-loat-giao-lo-trung-tam-tphcm-tro-nen-thong-thoang-hon-2448080.html
+2025-10-06 00:08:39,884 - INFO - Fetching: https://vietnamnet.vn/ha-noi-khoi-cong-du-an-nha-hat-ngoc-trai-von-dau-tu-hon-12-500-ty-dong-2449310.html
+2025-10-06 00:08:40,249 - INFO - [11/76] ✓ Crawled: Thủ tướng Gruzia cáo buộc người biểu tình muốn đảo...
+2025-10-06 00:08:40,342 - INFO - Fetching: https://vietnamnet.vn/tin-moi-nhat-ve-bao-so-11-matmo-cach-quang-ninh-550km-sap-anh-huong-mien-bac-2449193.html
+2025-10-06 00:08:40,502 - INFO - Fetching: https://vietnamnet.vn/du-bao-thoi-tiet-5-10-2025-bao-so-11-vao-vinh-bac-bo-mien-bac-mua-lon-2449192.html
+2025-10-06 00:08:40,845 - INFO - Fetching: https://vietnamnet.vn/du-an-duong-3-800-ty-o-tphcm-chang-chit-o-voi-sau-mot-nam-su-dung-2448047.html
+2025-10-06 00:08:41,310 - INFO - [12/76] ✓ Crawled: Gửi người đàn ông đang tìm mối quan hệ trưởng thàn...
+2025-10-06 00:08:41,381 - INFO - Fetching: https://vietnamnet.vn/phong-bao-matmo-chu-tich-ha-noi-khuyen-khich-lam-viec-online-vao-thu-2-2449278.html
+2025-10-06 00:08:41,510 - INFO - Fetching: https://vietnamnet.vn/chay-o-tang-1-chi-nhanh-ngan-hang-tai-ha-noi-2449257.html
+2025-10-06 00:08:42,912 - INFO - [14/76] ✓ Crawled: Quảng Ninh, Hải Phòng cấp tập ứng phó bão Matmo...
+2025-10-06 00:08:46,521 - INFO - [19/76] ✓ Crawled: Chủ tịch Hà Nội: Ứng phó bão cần linh hoạt, tránh ...
+2025-10-06 00:08:50,351 - INFO - [24/76] ✓ Crawled: Cơ hội mua vé sớm concert G-DRAGON khi mở thẻ VPBa...
+2025-10-06 00:08:51,202 - INFO - [25/76] ✓ Crawled: Bão Matmo vào biên giới Việt - Trung, có thể gây m...
+2025-10-06 00:08:51,830 - INFO - [26/76] ✓ Crawled: Bước đi chưa từng có của ông Trump khi ký sắc lệnh...
+2025-10-06 00:08:53,116 - INFO - [28/76] ✓ Crawled: Vùng trồng hoa, rau lớn nhất Hà Nội thiệt hại nặng...
+2025-10-06 00:08:56,865 - INFO - [33/76] ✓ Crawled: Chuyên gia: 'Không uống rượu bia cũng là một lựa c...
+2025-10-06 00:08:57,695 - INFO - [34/76] ✓ Crawled: Bắt đầu sáp nhập trường đại học từ năm 2026...
+2025-10-06 00:08:58,249 - INFO - [35/76] ✓ Crawled: Người Hà Nội tìm cách bảo vệ ôtô trước bão Matmo...
+2025-10-06 00:09:01,632 - INFO - [39/76] ✓ Crawled: Hà Nội cho 2,3 triệu học sinh nghỉ học ngày 6/10...
+2025-10-06 00:09:06,857 - INFO - [47/76] ✓ Crawled: Yêu cầu liêm chính trong thi khoa học kỹ thuật của...
+2025-10-06 00:09:10,543 - INFO - [51/76] ✓ Crawled: Dự báo thời tiết 6/10/2025: Bão số 11 đổ bộ đất li...
+2025-10-06 00:09:12,702 - INFO - [54/76] ✓ Crawled: Hà Nội: Phát hiện thi thể nam giới nằm bất thường ...
+2025-10-06 00:09:14,440 - INFO - [56/76] ✓ Crawled: Máy bay bốc khói ở sân bay Tân Sơn Nhất khi chuẩn ...
+2025-10-06 00:09:15,002 - INFO - [57/76] ✓ Crawled: Hai mẹ con bị hành hung giữa đường, nạn nhân mang ...
+2025-10-06 00:09:24,509 - INFO - [70/76] ✓ Crawled: Khởi công dự án Nhà hát Ngọc Trai, vốn đầu tư hơn ...
+2025-10-06 00:09:26,356 - INFO - [72/76] ✓ Crawled: Tin mới nhất về bão số 11 Matmo: Cách Quảng Ninh 4...
+2025-10-06 00:09:27,940 - INFO - [74/76] ✓ Crawled: Dự báo thời tiết 5/10/2025: Bão số 11 vào Vịnh Bắc...
+2025-10-06 00:09:28,745 - INFO - [75/76] ✓ Crawled: Phòng bão Matmo: Chủ tịch Hà Nội khuyến khích làm ...
+2025-10-06 00:09:29,296 - INFO - [76/76] ✓ Crawled: Cháy ngân hàng ở Hà Nội...
+2025-10-06 00:09:30,148 - INFO - 
+============================================================
+2025-10-06 00:09:30,148 - INFO - Finished: 22 new events added
+2025-10-06 00:09:30,148 - INFO - Total events: 22
+2025-10-06 00:09:30,149 - INFO - ============================================================
+2025-10-06 00:23:51,343 - INFO - ℹ OpenAI API not configured - using enhanced rule-based extraction
+2025-10-06 00:23:51,343 - INFO - ============================================================
+2025-10-06 00:23:51,343 - INFO - SafeMap Crawler - Enhanced with RSS Debug
+2025-10-06 00:23:51,343 - INFO - ============================================================
+2025-10-06 00:23:51,343 - INFO - JSON file is empty, starting fresh
+2025-10-06 00:23:51,344 - INFO - Loaded 0 existing events
+2025-10-06 00:23:51,344 - INFO - 
+============================================================
+2025-10-06 00:23:51,344 - INFO - PHASE 1: Collecting URLs from RSS feeds
+2025-10-06 00:23:51,344 - INFO - ============================================================
+2025-10-06 00:23:51,344 - INFO - Crawling RSS: VnExpress - https://vnexpress.net/rss/tin-moi-nhat.rss
+2025-10-06 00:23:51,498 - INFO -   Content-Type: application/xml; charset=utf-8
+2025-10-06 00:23:51,545 - INFO -   Feed status: N/A
+2025-10-06 00:23:51,545 - INFO -   Feed entries: 51
+2025-10-06 00:23:51,545 - INFO -   Processed 50 entries, found 50 recent articles
+2025-10-06 00:23:51,545 - INFO - ✓ Found 50 articles from last 24h for VnExpress
+2025-10-06 00:23:52,547 - INFO - Crawling RSS: Dân Trí - https://dantri.com.vn/rss/home.rss
+2025-10-06 00:23:52,678 - INFO -   Content-Type: application/rss+xml
+2025-10-06 00:23:52,791 - INFO -   Feed status: N/A
+2025-10-06 00:23:52,791 - INFO -   Feed entries: 100
+2025-10-06 00:23:52,791 - INFO -   Processed 100 entries, found 0 recent articles
+2025-10-06 00:23:52,791 - WARNING -   No recent articles found, trying next URL...
+2025-10-06 00:23:52,791 - INFO - Crawling RSS: Dân Trí - https://dantri.com.vn/rss/thoi-su.rss
+2025-10-06 00:23:52,901 - INFO -   Content-Type: application/rss+xml
+2025-10-06 00:23:53,004 - INFO -   Feed status: N/A
+2025-10-06 00:23:53,004 - INFO -   Feed entries: 100
+2025-10-06 00:23:53,005 - INFO -   Processed 100 entries, found 38 recent articles
+2025-10-06 00:23:53,005 - INFO - ✓ Found 38 articles from last 24h for Dân Trí
+2025-10-06 00:23:54,007 - INFO - Crawling RSS: Vietnamnet - https://vietnamnet.vn/rss/thoi-su.rss
+2025-10-06 00:23:54,133 - INFO -   Content-Type: application/xml
+2025-10-06 00:23:54,204 - INFO -   Feed status: N/A
+2025-10-06 00:23:54,204 - INFO -   Feed entries: 60
+2025-10-06 00:23:54,205 - INFO -   Processed 60 entries, found 26 recent articles
+2025-10-06 00:23:54,205 - INFO - ✓ Found 26 articles from last 24h for Vietnamnet
+2025-10-06 00:23:55,206 - INFO - Crawling RSS: Tuổi Trẻ - https://tuoitre.vn/rss/tin-moi-nhat.rss
+2025-10-06 00:23:55,327 - INFO -   Content-Type: text/xml; charset=utf-8
+2025-10-06 00:23:55,389 - INFO -   Feed status: N/A
+2025-10-06 00:23:55,389 - INFO -   Feed entries: 50
+2025-10-06 00:23:55,413 - INFO -   Processed 50 entries, found 0 recent articles
+2025-10-06 00:23:55,413 - WARNING -   No recent articles found, trying next URL...
+2025-10-06 00:23:55,413 - INFO - Crawling RSS: Tuổi Trẻ - https://tuoitre.vn/rss/thoi-su.rss
+2025-10-06 00:23:55,525 - INFO -   Content-Type: text/xml; charset=utf-8
+2025-10-06 00:23:55,578 - INFO -   Feed status: N/A
+2025-10-06 00:23:55,578 - INFO -   Feed entries: 50
+2025-10-06 00:23:55,585 - INFO -   Processed 50 entries, found 0 recent articles
+2025-10-06 00:23:55,586 - WARNING -   No recent articles found, trying next URL...
+2025-10-06 00:23:55,586 - INFO - Crawling RSS: Tuổi Trẻ - https://tuoitre.vn/rss/xa-hoi.rss
+2025-10-06 00:23:55,748 - INFO -   Content-Type: text/xml; charset=utf-8
+2025-10-06 00:23:55,803 - INFO -   Feed status: N/A
+2025-10-06 00:23:55,803 - INFO -   Feed entries: 50
+2025-10-06 00:23:55,811 - INFO -   Processed 50 entries, found 0 recent articles
+2025-10-06 00:23:55,811 - WARNING -   No recent articles found, trying next URL...
+2025-10-06 00:23:55,811 - WARNING - ✗ No articles found for Tuổi Trẻ from any RSS URL
+2025-10-06 00:23:56,812 - INFO - Crawling RSS: Thanh Niên - https://thanhnien.vn/rss/home.rss
+2025-10-06 00:23:57,046 - INFO -   Content-Type: text/xml; charset=utf-8
+2025-10-06 00:23:57,120 - INFO -   Feed status: N/A
+2025-10-06 00:23:57,120 - INFO -   Feed entries: 60
+2025-10-06 00:23:57,120 - INFO -   Processed 50 entries, found 50 recent articles
+2025-10-06 00:23:57,120 - INFO - ✓ Found 50 articles from last 24h for Thanh Niên
+2025-10-06 00:23:58,122 - INFO - 
+------------------------------------------------------------
+2025-10-06 00:23:58,122 - INFO - RSS Collection Summary:
+2025-10-06 00:23:58,122 - INFO -   VnExpress: 50 articles
+2025-10-06 00:23:58,122 - INFO -   Dân Trí: 38 articles
+2025-10-06 00:23:58,122 - INFO -   Vietnamnet: 26 articles
+2025-10-06 00:23:58,122 - INFO -   Tuổi Trẻ: 0 articles
+2025-10-06 00:23:58,122 - INFO -   Thanh Niên: 50 articles
+2025-10-06 00:23:58,123 - INFO - Total URLs collected: 164
+2025-10-06 00:23:58,123 - INFO - ------------------------------------------------------------
+
+2025-10-06 00:23:58,123 - INFO - 
+============================================================
+2025-10-06 00:23:58,123 - INFO - PHASE 2: Processing articles
+2025-10-06 00:23:58,123 - INFO - ============================================================
+2025-10-06 00:23:58,123 - INFO - Processing 164 articles with 8 workers...
+2025-10-06 00:23:58,123 - INFO - Fetching: https://vnexpress.net/nhieu-nguoi-cai-nghien-ma-tuy-o-an-giang-tron-trai-4947571.html
+2025-10-06 00:23:58,125 - INFO - Fetching: https://vnexpress.net/ukraine-tuyen-bo-ha-ten-lua-sieu-vuot-am-kinzhal-cua-nga-4947564.html
+2025-10-06 00:23:58,126 - INFO - Fetching: https://vnexpress.net/nua-tan-ma-tuy-nguy-trang-nhu-bao-gao-tren-xe-dau-keo-4947562.html
+2025-10-06 00:23:58,129 - INFO - Fetching: https://vnexpress.net/loat-khi-cau-buon-lau-lam-te-liet-san-bay-lon-nhat-litva-4947547.html
+2025-10-06 00:23:58,131 - INFO - Fetching: https://vnexpress.net/bo-hoi-dong-truong-trong-co-so-giao-duc-cong-lap-4947552.html
+2025-10-06 00:23:58,133 - INFO - Fetching: https://vnexpress.net/van-chuyen-nua-tan-ma-tuy-tren-xe-dau-keo-o-mien-trung-4947554.html
+2025-10-06 00:23:58,134 - INFO - Fetching: https://vnexpress.net/cong-an-co-34-nguoi-du-dai-hoi-dang-lan-thu-14-4947549.html
+2025-10-06 00:23:58,136 - INFO - Fetching: https://vnexpress.net/chong-dinh-goi-me-vo-luc-4-gio-sang-de-tim-dong-minh-khi-cai-nhau-voi-toi-4947464.html
+2025-10-06 00:23:58,591 - INFO - Fetching: https://vnexpress.net/song-hye-kyo-bien-hoa-phong-cach-4947518.html
+2025-10-06 00:23:58,669 - INFO - Fetching: https://vnexpress.net/giong-loc-lam-toc-mai-hu-hong-nhieu-nha-o-nghe-an-ha-tinh-4947548.html
+2025-10-06 00:23:58,796 - INFO - Fetching: https://vnexpress.net/thu-tuong-gruzia-cao-buoc-nguoi-bieu-tinh-muon-dao-chinh-4947506.html
+2025-10-06 00:23:58,867 - INFO - Fetching: https://vnexpress.net/nghich-ly-hoc-vet-hoc-tu-nhung-diem-cao-4947443.html
+2025-10-06 00:23:58,975 - INFO - Fetching: https://vnexpress.net/gui-nguoi-dan-ong-dang-tim-moi-quan-he-truong-thanh-sau-sac-4947418.html
+2025-10-06 00:23:58,980 - INFO - Fetching: https://vnexpress.net/tam-soat-phat-hien-som-ung-thu-da-day-dai-truc-trang-the-nao-4947396.html
+2025-10-06 00:23:58,986 - INFO - Fetching: https://vnexpress.net/quang-ninh-hai-phong-cap-tap-ung-pho-bao-matmo-4947519.html
+2025-10-06 00:23:59,047 - INFO - Fetching: https://vnexpress.net/chu-nha-nghi-o-nhat-len-chuoc-thuoc-xam-hai-nhieu-khach-nu-4947538.html
+2025-10-06 00:23:59,151 - INFO - Fetching: https://vnexpress.net/bac-si-my-bi-kien-sau-khi-khach-chet-vi-nho-rang-4947540.html
+2025-10-06 00:23:59,184 - INFO - Fetching: https://vnexpress.net/hinh-anh-bao-matmo-quet-qua-trung-quoc-4947542.html
+2025-10-06 00:23:59,252 - INFO - Fetching: https://vnexpress.net/vingroup-de-xuat-xay-cau-vuot-bien-noi-can-gio-vung-tau-4947543.html
+2025-10-06 00:23:59,323 - INFO - Fetching: https://vnexpress.net/chu-tich-ha-noi-ung-pho-bao-can-linh-hoat-tranh-xao-tron-cuoc-song-nguoi-dan-4947507.html
+2025-10-06 00:23:59,360 - INFO - Fetching: https://vnexpress.net/nuoc-nao-dung-lich-cham-hon-7-nam-so-voi-the-gioi-4947539.html
+2025-10-06 00:23:59,431 - INFO - Fetching: https://vnexpress.net/phong-thi-nghiem-nuoi-nao-mini-de-van-hanh-may-tinh-4947535.html
+2025-10-06 00:23:59,580 - INFO - Fetching: https://vnexpress.net/noi-nao-co-nhieu-gio-nhat-the-gioi-4947433.html
+2025-10-06 00:23:59,603 - INFO - Fetching: https://vnexpress.net/buoc-di-chua-tung-co-cua-ong-trump-khi-ky-sac-lenh-bao-ve-qatar-4946213.html
+2025-10-06 00:23:59,700 - INFO - Fetching: https://vnexpress.net/co-hoi-mua-ve-som-concert-g-dragon-khi-mo-the-vpbank-mastercard-4947526.html
+2025-10-06 00:23:59,757 - INFO - Fetching: https://vnexpress.net/mat-sach-tien-tiet-kiem-vi-lua-dao-truc-tuyen-ba-lao-kien-ngan-hang-4947508.html
+2025-10-06 00:23:59,821 - INFO - Fetching: https://vnexpress.net/bao-matmo-dem-nay-vao-bien-gioi-viet-trung-4947522.html
+2025-10-06 00:23:59,843 - INFO - Fetching: https://vnexpress.net/vung-trong-hoa-rau-lon-nhat-ha-noi-thiet-hai-nang-sau-bao-bualoi-4947457.html
+2025-10-06 00:23:59,934 - INFO - Fetching: https://vnexpress.net/bi-an-thi-the-noi-tieng-nhat-everest-4947365.html
+2025-10-06 00:23:59,959 - INFO - Fetching: https://vnexpress.net/chong-bat-nhan-khi-ngoai-tinh-luc-toi-bau-4946757.html
+2025-10-06 00:24:00,056 - INFO - Fetching: https://vnexpress.net/hai-phong-co-the-hoan-thanh-11-900-can-nha-xa-hoi-cuoi-nam-nay-4947479.html
+2025-10-06 00:24:00,127 - INFO - Fetching: https://vnexpress.net/chuyen-gia-khong-uong-ruou-bia-cung-la-mot-lua-chon-trach-nhiem-4947514.html
+2025-10-06 00:24:00,205 - INFO - Fetching: https://vnexpress.net/thu-truong-tai-chinh-toi-da-5-doanh-nghiep-duoc-thi-diem-giao-dich-tien-ma-hoa-4947529.html
+2025-10-06 00:24:00,279 - INFO - Fetching: https://vnexpress.net/bat-dau-sap-nhap-truong-dai-hoc-tu-nam-2026-4947516.html
+2025-10-06 00:24:00,341 - INFO - Fetching: https://vnexpress.net/nguoi-ha-noi-tim-cach-bao-ve-oto-truoc-bao-matmo-4947408.html
+2025-10-06 00:24:00,415 - INFO - Fetching: https://vnexpress.net/my-nu-tan-cuong-hoa-tien-nu-cung-trang-4947510.html
+2025-10-06 00:24:00,573 - INFO - Fetching: https://vnexpress.net/tau-cho-11-nguoi-bi-tong-chim-ngoai-khoi-4947515.html
+2025-10-06 00:24:00,626 - INFO - Fetching: https://vnexpress.net/diem-tin-21h-quang-ninh-hai-phong-cap-tap-ung-pho-bao-matmo-bat-dau-sap-nhap-truong-dai-hoc-tu-nam-2026-4947511.html
+2025-10-06 00:24:00,645 - INFO - Fetching: https://vnexpress.net/ha-noi-cho-2-3-trieu-hoc-sinh-nghi-hoc-ngay-6-10-4947504.html
+2025-10-06 00:24:00,649 - INFO - Fetching: https://vnexpress.net/gui-nguoi-cung-em-qua-mua-giong-bao-4947416.html
+2025-10-06 00:24:00,796 - INFO - Fetching: https://vnexpress.net/ai-co-the-khien-ke-tan-cong-mang-de-dang-tao-ma-doc-4946636.html
+2025-10-06 00:24:00,847 - INFO - Fetching: https://vnexpress.net/can-bo-dien-chinh-phu-quan-ly-se-duoc-danh-gia-hang-thang-4947496.html
+2025-10-06 00:24:00,855 - INFO - Fetching: https://vnexpress.net/bao-matmo-do-bo-trung-quoc-hang-tram-nghin-nguoi-phai-so-tan-4947497.html
+2025-10-06 00:24:00,953 - INFO - Fetching: https://vnexpress.net/trung-quoc-thu-nghiem-trung-tam-du-lieu-duoi-nuoc-4947470.html
+2025-10-06 00:24:01,077 - INFO - Fetching: https://vnexpress.net/5-cach-tu-kiem-tra-gan-nhiem-mo-tai-nha-4947427.html
+2025-10-06 00:24:01,121 - INFO - Fetching: https://vnexpress.net/senne-lammens-tu-chang-thu-mon-quen-gang-tay-den-niem-hy-vong-o-man-utd-4947501.html
+2025-10-06 00:24:01,213 - INFO - Fetching: https://vnexpress.net/yeu-cau-liem-chinh-trong-thi-khoa-hoc-ky-thuat-cua-hoc-sinh-4947487.html
+2025-10-06 00:24:01,252 - INFO - Fetching: https://vnexpress.net/nghe-si-luu-hong-quang-se-doc-tau-ba-ban-nhac-kinh-dien-4946080.html
+2025-10-06 00:24:01,365 - INFO - Fetching: https://vnexpress.net/bai-toan-di-chuyen-2-que-diem-thu-thach-iq-cua-ban-4947006.html
+2025-10-06 00:24:01,399 - INFO - Fetching: https://vnexpress.net/ntk-viet-gioi-thieu-dam-cam-hung-a-dong-o-paris-4947180.html
+2025-10-06 00:24:01,461 - INFO - Fetching: https://dantri.com.vn/thoi-su/quang-ninh-hai-phong-gap-rut-ung-pho-bao-matmo-20251005205912920.htm
+2025-10-06 00:24:01,536 - INFO - Fetching: https://dantri.com.vn/thoi-su/hai-vu-tai-nan-cung-dia-diem-khien-4-nguoi-thuong-vong-o-tphcm-20251005192201569.htm
+2025-10-06 00:24:01,551 - INFO - Fetching: https://dantri.com.vn/thoi-su/phu-tho-thiet-hai-700-ty-dong-do-bao-bualoi-gay-ra-20251005203237272.htm
+2025-10-06 00:24:01,642 - INFO - Fetching: https://dantri.com.vn/thoi-su/be-mac-dai-hoi-dang-bo-cong-an-trung-uong-nhiem-ky-2025-2030-20251005192811876.htm
+2025-10-06 00:24:01,698 - INFO - Fetching: https://dantri.com.vn/thoi-su/bo-chinh-tri-ket-luan-bo-hoi-dong-truong-trong-co-so-giao-duc-cong-lap-20251005190114471.htm
+2025-10-06 00:24:01,887 - INFO - Fetching: https://dantri.com.vn/thoi-su/khu-vuc-bac-bo-se-mua-to-den-rat-to-do-anh-huong-tu-bao-matmo-20251005190721314.htm
+2025-10-06 00:24:01,928 - INFO - Fetching: https://dantri.com.vn/thoi-su/chu-tich-ha-noi-ung-pho-bao-matmo-can-tranh-xao-tron-cuoc-song-nhan-dan-20251005184848827.htm
+2025-10-06 00:24:01,939 - INFO - Fetching: https://dantri.com.vn/thoi-su/tau-thuyen-o-quang-ninh-tim-khe-nui-neo-dau-tranh-tru-bao-matmo-20251005184242040.htm
+2025-10-06 00:24:01,989 - INFO - Fetching: https://dantri.com.vn/thoi-su/pho-thu-tuong-kiem-tra-cong-tac-ung-pho-voi-bao-so-11-tai-lao-cai-20251005171227677.htm
+2025-10-06 00:24:02,133 - INFO - Fetching: https://dantri.com.vn/thoi-su/tau-ca-o-gia-lai-bi-tau-cho-dau-nuoc-ngoai-dam-chim-thuyen-truong-mat-tich-20251005164135013.htm
+2025-10-06 00:24:02,388 - INFO - Fetching: https://dantri.com.vn/thoi-su/ly-do-khien-toa-nha-1800-ty-dong-hoan-thanh-6-nam-van-chua-duoc-nghiem-thu-20251005164131259.htm
+2025-10-06 00:24:02,441 - INFO - Fetching: https://dantri.com.vn/thoi-su/3-vi-tri-du-kien-lam-ben-du-thuyen-o-tphcm-20251005115129921.htm
+2025-10-06 00:24:02,457 - INFO - Fetching: https://dantri.com.vn/thoi-su/chi-huy-truong-quan-su-lan-sau-2m-mo-cua-cuu-thai-phu-trong-lu-20251005153420456.htm
+2025-10-06 00:24:02,603 - INFO - Fetching: https://dantri.com.vn/thoi-su/san-bay-van-don-cat-bi-co-the-bi-anh-huong-truc-tiep-boi-bao-matmo-20251005161331034.htm
+2025-10-06 00:24:02,771 - INFO - Fetching: https://dantri.com.vn/thoi-su/de-xuat-khoi-cong-duong-sat-tphcm-can-tho-vao-nam-2027-20251005160111454.htm
+2025-10-06 00:24:02,834 - INFO - Fetching: https://dantri.com.vn/thoi-su/xe-khach-giuong-nam-boc-chay-tren-cao-toc-tphcm-trung-luong-20251005152512845.htm
+2025-10-06 00:24:03,113 - INFO - Fetching: https://dantri.com.vn/thoi-su/xe-may-nga-vao-o-to-tai-2-anh-em-bi-can-thuong-vong-o-tphcm-20251005134946284.htm
+2025-10-06 00:24:03,280 - INFO - Fetching: https://dantri.com.vn/thoi-su/phat-tai-xe-khong-nhuong-duong-cho-doan-xe-uu-tien-o-tphcm-20251005125015413.htm
+2025-10-06 00:24:03,297 - INFO - Fetching: https://dantri.com.vn/thoi-su/khoi-cong-nha-hat-opera-ha-noi-hon-12700-ty-dong-sat-ho-tay-20251005124804033.htm
+2025-10-06 00:24:03,545 - INFO - Fetching: https://dantri.com.vn/thoi-su/du-bao-rang-sang-mai-bao-matmo-do-bo-quang-ninh-20251005144827317.htm
+2025-10-06 00:24:03,573 - INFO - Fetching: https://dantri.com.vn/thoi-su/thu-tuong-chi-dao-kiem-soat-gia-nha-dat-dang-o-muc-cao-20251005144428693.htm
+2025-10-06 00:24:03,721 - INFO - Fetching: https://dantri.com.vn/thoi-su/camera-ai-phat-hien-hon-3000-truong-hop-vi-pham-giao-thong-o-tphcm-20251005140040433.htm
+2025-10-06 00:24:03,823 - INFO - Fetching: https://dantri.com.vn/thoi-su/hon-20-nguoi-xuyen-dem-tim-em-nho-bi-nuoc-cuon-o-gia-lai-20251005140438229.htm
+2025-10-06 00:24:03,834 - INFO - Fetching: https://dantri.com.vn/thoi-su/thu-tuong-pham-minh-chinh-chu-tri-phien-hop-chinh-phu-thuong-ky-thang-9-20251005135550976.htm
+2025-10-06 00:24:04,139 - INFO - Fetching: https://dantri.com.vn/thoi-su/dung-xe-tren-cao-toc-my-thuan-can-tho-quay-phim-nam-tai-xe-bi-xu-phat-20251005132328246.htm
+2025-10-06 00:24:04,159 - INFO - Fetching: https://dantri.com.vn/thoi-su/ong-le-ngoc-quang-lam-bi-thu-tinh-uy-quang-tri-20251005105300019.htm
+2025-10-06 00:24:04,271 - INFO - Fetching: https://dantri.com.vn/thoi-su/o-to-mercedes-do-xe-sai-o-pho-co-ha-noi-bi-nguoi-dan-mach-cuc-truong-csgt-20251005123544161.htm
+2025-10-06 00:24:04,490 - INFO - Fetching: https://dantri.com.vn/thoi-su/dia-phuong-chu-dong-cho-hoc-sinh-nghi-hoc-ung-pho-bao-matmo-20251005122943989.htm
+2025-10-06 00:24:04,529 - INFO - Fetching: https://dantri.com.vn/thoi-su/xac-minh-clip-tai-xe-xe-may-tong-vao-o-to-dang-dung-o-chan-cau-thanh-tri-20251005121226089.htm
+2025-10-06 00:24:04,556 - INFO - Fetching: https://dantri.com.vn/thoi-su/bo-truong-noi-vu-tang-cuong-can-bo-cong-chuc-cap-tinh-ve-ho-tro-cap-xa-20251005121559204.htm
+2025-10-06 00:24:04,723 - INFO - Fetching: https://dantri.com.vn/thoi-su/o-to-lat-ngua-duoi-ruong-sau-cu-va-cham-voi-tau-hoa-20251005115327690.htm
+2025-10-06 00:24:04,831 - INFO - Fetching: https://dantri.com.vn/thoi-su/tuyen-duong-duoc-xem-la-diem-nong-ve-nan-xe-du-ben-coc-o-tphcm-xuong-cap-20251003115137101.htm
+2025-10-06 00:24:05,017 - INFO - Fetching: https://dantri.com.vn/thoi-su/thu-tuong-phat-dong-thi-dua-chao-mung-dai-hoi-xiv-cua-dang-20251005113339366.htm
+2025-10-06 00:24:05,191 - INFO - Fetching: https://dantri.com.vn/thoi-su/hai-phong-don-rac-o-bai-bien-truoc-khi-bao-matmo-do-bo-dat-lien-20251005110558796.htm
+2025-10-06 00:24:05,355 - INFO - Fetching: https://dantri.com.vn/thoi-su/dien-bien-moi-vu-cot-dien-gay-gap-sau-bao-bualoi-de-lo-phan-loi-o-ha-tinh-20251005103843292.htm
+2025-10-06 00:24:05,471 - INFO - Fetching: https://dantri.com.vn/thoi-su/bao-matmo-dang-trong-giai-doan-manh-nhat-toi-nay-se-anh-huong-toi-mien-bac-20251005092856836.htm
+2025-10-06 00:24:05,510 - INFO - Fetching: https://dantri.com.vn/thoi-su/hung-yen-khac-phuc-tinh-trang-phat-am-viet-sai-l-n-20251005090719323.htm
+2025-10-06 00:24:05,655 - INFO - Fetching: https://dantri.com.vn/thoi-su/nut-giao-noi-3-cao-toc-o-cua-ngo-phia-tay-tphcm-sap-hoan-thanh-20251002183734888.htm
+2025-10-06 00:24:05,675 - INFO - Fetching: https://vietnamnet.vn/giong-loc-lam-sap-hang-loat-ngoi-nha-mai-ton-bay-bay-tu-tung-o-nghe-an-2449444.html
+2025-10-06 00:24:05,997 - INFO - Fetching: https://vietnamnet.vn/du-bao-thoi-tiet-6-10-2025-bao-so-11-do-bo-dat-lien-mien-bac-gio-manh-mua-lon-2449372.html
+2025-10-06 00:24:06,027 - INFO - Fetching: https://vietnamnet.vn/ha-noi-phat-hien-thi-the-nam-gioi-nam-bat-thuong-o-hien-tang-cao-toa-nha-2449427.html
+2025-10-06 00:24:06,063 - INFO - Fetching: https://vietnamnet.vn/clip-bat-2-doi-tuong-nguoi-lao-van-chuyen-hang-chuc-bao-tai-chua-500kg-ma-tuy-2449424.html
+2025-10-06 00:24:06,293 - INFO - [11/164] ✓ Crawled: Thủ tướng Gruzia cáo buộc người biểu tình muốn đảo...
+2025-10-06 00:24:06,350 - INFO - Fetching: https://vietnamnet.vn/bao-so-11-matmo-vao-vinh-bac-bo-diem-ten-khu-vuc-va-thoi-diem-gio-manh-2449368.html
+2025-10-06 00:24:06,804 - INFO - Fetching: https://vietnamnet.vn/sau-metro-4-ty-usd-vingroup-de-xuat-lam-tiep-duong-vuot-bien-can-gio-vung-tau-2449417.html
+2025-10-06 00:24:06,986 - INFO - Fetching: https://vietnamnet.vn/tau-bay-boc-khoi-khi-chuan-bi-cat-canh-tu-tphcm-di-ha-noi-2449411.html
+2025-10-06 00:24:07,041 - INFO - Fetching: https://vietnamnet.vn/hai-me-con-bi-hanh-hung-giua-duong-nan-nhan-mang-bau-7-tuan-phai-nhap-vien-2449393.html
+2025-10-06 00:24:07,148 - INFO - Fetching: https://vietnamnet.vn/bao-so-11-matmo-co-the-vao-quang-ninh-dem-nay-gio-manh-nhat-cap-8-9-2449357.html
+2025-10-06 00:24:07,451 - INFO - Fetching: https://vietnamnet.vn/hien-trang-bat-ngo-tai-ke-bien-o-ninh-binh-sau-6-ngay-bi-song-danh-sap-2449337.html
+2025-10-06 00:24:07,671 - INFO - [13/164] ✓ Crawled: Gửi người đàn ông đang tìm mối quan hệ trưởng thàn...
+2025-10-06 00:24:07,685 - INFO - Fetching: https://vietnamnet.vn/danh-tinh-nghi-pham-dam-co-gai-tu-vong-tren-via-he-trong-dem-o-tphcm-2449381.html
+2025-10-06 00:24:08,174 - INFO - Fetching: https://vietnamnet.vn/chay-xe-giuong-nam-tren-cao-toc-tphcm-trung-luong-hanh-khach-hoang-loan-2449373.html
+2025-10-06 00:24:08,179 - INFO - Fetching: https://vietnamnet.vn/tphcm-tang-toc-du-an-giao-thong-trong-diem-giai-ngan-dau-tu-cong-quyet-dat-95-2449355.html
+2025-10-06 00:24:08,515 - INFO - Fetching: https://vietnamnet.vn/1-thang-camera-ai-o-tphcm-phat-hien-hon-3-100-truong-hop-vi-pham-giao-thong-2449342.html
+2025-10-06 00:24:08,948 - INFO - Fetching: https://vietnamnet.vn/nhung-san-bay-nao-bi-anh-huong-truc-tiep-boi-bao-matmo-2449335.html
+2025-10-06 00:24:08,969 - INFO - Fetching: https://vietnamnet.vn/giai-cuu-2-nan-nhan-ket-trong-cabin-xe-dau-keo-sau-tai-nan-tren-cao-toc-2449333.html
+2025-10-06 00:24:09,105 - INFO - Fetching: https://vietnamnet.vn/bat-tam-giam-mot-facebooker-keu-goi-tu-thien-de-chiem-doat-tai-san-2449331.html
+2025-10-06 00:24:09,248 - INFO - Fetching: https://vietnamnet.vn/18-ong-chu-thuy-dien-nhan-lenh-khan-cua-chu-tich-tinh-2449286.html
+2025-10-06 00:24:09,637 - INFO - Fetching: https://vietnamnet.vn/bao-so-11-matmo-dang-giai-doan-manh-nhat-thoi-diem-tac-dong-dat-lien-nuoc-ta-2449194.html
+2025-10-06 00:24:09,690 - INFO - Fetching: https://vietnamnet.vn/vi-sao-loat-giao-lo-trung-tam-tphcm-tro-nen-thong-thoang-hon-2448080.html
+2025-10-06 00:24:10,318 - INFO - Fetching: https://vietnamnet.vn/ha-noi-khoi-cong-du-an-nha-hat-ngoc-trai-von-dau-tu-hon-12-500-ty-dong-2449310.html
+2025-10-06 00:24:10,716 - INFO - Fetching: https://vietnamnet.vn/tin-moi-nhat-ve-bao-so-11-matmo-cach-quang-ninh-550km-sap-anh-huong-mien-bac-2449193.html
+2025-10-06 00:24:11,112 - INFO - Fetching: https://vietnamnet.vn/du-bao-thoi-tiet-5-10-2025-bao-so-11-vao-vinh-bac-bo-mien-bac-mua-lon-2449192.html
+2025-10-06 00:24:11,116 - INFO - Fetching: https://vietnamnet.vn/du-an-duong-3-800-ty-o-tphcm-chang-chit-o-voi-sau-mot-nam-su-dung-2448047.html
+2025-10-06 00:24:11,153 - INFO - Fetching: https://vietnamnet.vn/phong-bao-matmo-chu-tich-ha-noi-khuyen-khich-lam-viec-online-vao-thu-2-2449278.html
+2025-10-06 00:24:11,419 - INFO - Fetching: https://vietnamnet.vn/chay-o-tang-1-chi-nhanh-ngan-hang-tai-ha-noi-2449257.html
+2025-10-06 00:24:11,509 - INFO - Fetching: https://thanhnien.vn/4-trieu-chung-ban-dem-tiet-lo-than-yeu-cho-bo-qua-185251005045249023.htm
+2025-10-06 00:24:11,515 - INFO - Fetching: https://thanhnien.vn/ngay-moi-voi-tin-tuc-suc-khoe-tap-the-duc-buoi-sang-hay-buoi-toi-tot-hon-185251004102107318.htm
+2025-10-06 00:24:11,910 - INFO - Fetching: https://thanhnien.vn/vi-khuan-ac-mong-gia-tang-o-my-nguy-hiem-co-nao-18525100504575279.htm
+2025-10-06 00:24:12,066 - INFO - [18/164] ✓ Crawled: Quảng Ninh, Hải Phòng cấp tập ứng phó bão Matmo...
+2025-10-06 00:24:12,248 - INFO - Fetching: https://thanhnien.vn/bac-si-nhung-ai-co-nguy-co-dau-tim-tang-gap-doi-vao-ban-dem-185250928112735812.htm
+2025-10-06 00:24:12,733 - INFO - Fetching: https://thanhnien.vn/doi-tuyen-viet-nam-co-the-dau-nepal-bang-doi-hinh-tre-nhat-lich-su-185251005185943931.htm
+2025-10-06 00:24:12,770 - INFO - Fetching: https://thanhnien.vn/la-lung-liverpool-18525100518371162.htm
+2025-10-06 00:24:12,827 - INFO - Fetching: https://thanhnien.vn/lich-thi-dau-doi-tuyen-viet-nam-moi-nhat-tai-chien-malaysia-khi-nao-tai-sao-khong-phat-tren-vtv-185251005172935672.htm
+2025-10-06 00:24:13,147 - INFO - Fetching: https://thanhnien.vn/an-giang-khan-truong-truy-bat-cac-hoc-vien-bo-tron-khoi-co-so-cai-nghien-18525100522213032.htm
+2025-10-06 00:24:13,150 - INFO - Fetching: https://thanhnien.vn/bao-chi-malaysia-toan-canh-be-boi-nhap-tich-lau-cua-fam-truoc-ngay-het-han-khang-cao-fifa-18525100521393105.htm
+2025-10-06 00:24:13,414 - INFO - Fetching: https://thanhnien.vn/nguoi-dan-gaza-mong-moi-ke-hoach-cua-ong-trump-thanh-cong-185251005194205764.htm
+2025-10-06 00:24:13,497 - INFO - Fetching: https://thanhnien.vn/huyen-thoai-kien-truc-renzo-piano-nha-hat-opera-ha-noi-la-du-an-toi-yeu-thuong-nhat-18525100520313564.htm
+2025-10-06 00:24:13,599 - INFO - Fetching: https://thanhnien.vn/120-nguoi-mat-tich-o-nicaragua-lien-hiep-quoc-yeu-cau-giai-trinh-185251005185859167.htm
+2025-10-06 00:24:14,218 - INFO - [21/164] ✓ Crawled: Chủ tịch Hà Nội: Ứng phó bão cần linh hoạt, tránh ...
+2025-10-06 00:24:14,219 - INFO - Fetching: https://thanhnien.vn/nguoi-dung-steam-dang-co-xu-huong-chuyen-tu-gpu-8-gb-sang-16-gb-185251004074800517.htm
+2025-10-06 00:24:14,261 - INFO - Fetching: https://thanhnien.vn/tet-bien-le-hoi-nghinh-ong-can-gio-2025-an-toan-than-thien-khac-biet-185251005194405359.htm
+2025-10-06 00:24:14,339 - INFO - Fetching: https://thanhnien.vn/gay-can-hap-dan-giai-the-thao-hoc-sinh-truong-thpt-chuyen-tran-dai-nghia-18525100519453937.htm
+2025-10-06 00:24:14,395 - INFO - Fetching: https://thanhnien.vn/ong-putin-vien-tro-ten-lua-tomahawk-cho-ukraine-se-pha-huy-quan-he-nga-my-18525100519321917.htm
+2025-10-06 00:24:14,691 - INFO - Fetching: https://thanhnien.vn/quang-tri-bat-giu-2-nguoi-lao-van-chuyen-500-kg-ma-tuy-qua-viet-nam-185251005200838649.htm
+2025-10-06 00:24:14,814 - INFO - Fetching: https://thanhnien.vn/giao-hoang-leo-xiv-keu-goi-giup-do-nguoi-nhap-cu-sau-khi-chi-trich-ong-trump-18525100518584662.htm
+2025-10-06 00:24:15,080 - INFO - Fetching: https://thanhnien.vn/nguoi-viet-sap-ngam-3-sieu-trang-lien-tiep-nhin-ro-nhat-vao-nhung-ngay-nay-185250924145256235.htm
+2025-10-06 00:24:15,083 - INFO - Fetching: https://thanhnien.vn/dang-van-lam-hanh-phuc-ngay-tro-lai-doi-tuyen-viet-nam-ngo-nhu-moi-hom-qua-185251005201934488.htm
+2025-10-06 00:24:15,432 - INFO - Fetching: https://thanhnien.vn/my-nam-mua-do-gay-sot-khi-dong-phim-18-18525100519095655.htm
+2025-10-06 00:24:15,921 - INFO - [23/164] ✓ Crawled: Bước đi chưa từng có của ông Trump khi ký sắc lệnh...
+2025-10-06 00:24:16,043 - INFO - Fetching: https://thanhnien.vn/nhieu-khoanh-khac-thu-vi-giai-quan-vot-doanh-nghiep-doanh-nhan-tphcm-mo-rong-2025-185251005194031546.htm
+2025-10-06 00:24:16,058 - INFO - Fetching: https://thanhnien.vn/8-cau-thu-len-doi-tuyen-u23-viet-nam-mo-co-hoi-cho-cac-chan-sut-viet-kieu-185251005154248513.htm
+2025-10-06 00:24:16,106 - INFO - Fetching: https://thanhnien.vn/chu-tich-ha-noi-ung-pho-bao-matmo-can-tranh-xao-tron-cuoc-song-nhan-dan-185251005193513357.htm
+2025-10-06 00:24:16,205 - INFO - Fetching: https://thanhnien.vn/them-mot-phim-viet-thong-bao-dung-chieu-doanh-thu-hon-2-ti-dong-185251005172056083.htm
+2025-10-06 00:24:16,291 - INFO - Fetching: https://thanhnien.vn/nu-thu-khoa-dau-ra-truong-dh-kinh-te-hue-chia-se-cong-thuc-dat-diem-cao-185251005185013871.htm
+2025-10-06 00:24:16,607 - INFO - Fetching: https://thanhnien.vn/xem-nhanh-20h-ngay-510-camera-ai-quet-duong-pho-tphcm-hoc-sinh-ha-noi-nghi-hoc-phong-bao-matmo-185251005192936968.htm
+2025-10-06 00:24:16,634 - INFO - Fetching: https://thanhnien.vn/thoi-trang-tre/ao-co-lo-trung-tinh-khang-dinh-ve-dep-thoi-thuong-ngay-thu-185251003211853404.htm
+2025-10-06 00:24:16,775 - INFO - Fetching: https://thanhnien.vn/nguoi-mau-viet-bi-ngo-doc-nhap-vien-truoc-chung-ket-nam-vuong-toan-cau-185251005190419.htm
+2025-10-06 00:24:17,162 - INFO - Fetching: https://thanhnien.vn/van-cuoc-lich-su-samsung-tich-hop-vi-tien-ma-hoa-cho-75-trieu-nguoi-dung-galaxy-185251004161734403.htm
+2025-10-06 00:24:17,207 - INFO - Fetching: https://thanhnien.vn/duong-tu-ky-suyt-chet-vi-tai-nan-o-tvb-185251005152013191.htm
+2025-10-06 00:24:17,351 - INFO - [25/164] ✓ Crawled: Cơ hội mua vé sớm concert G-DRAGON khi mở thẻ VPBa...
+2025-10-06 00:24:17,398 - INFO - Fetching: https://thanhnien.vn/ong-chu-35-tuoi-to-tinh-lang-man-chinh-phuc-duoc-gai-xinh-tren-show-hen-ho-185251005145313225.htm
+2025-10-06 00:24:17,698 - INFO - Fetching: https://thanhnien.vn/tai-tha-91-dong-vat-rung-nguy-cap-quy-hiem-ve-vuon-quoc-gia-tam-dao-185251003150315105.htm
+2025-10-06 00:24:17,794 - INFO - Fetching: https://thanhnien.vn/cong-doan-cand-vo-dich-giai-bong-da-cong-nhan-vien-chuc-khu-vuc-phia-bac-185251005190135505.htm
+2025-10-06 00:24:18,223 - INFO - Fetching: https://thanhnien.vn/tau-ca-bi-tau-cho-dau-nuoc-ngoai-va-cham-manh-1-thuyen-truong-mat-tich-185251005172622379.htm
+2025-10-06 00:24:18,237 - INFO - Fetching: https://thanhnien.vn/ket-qua-xo-so-mega-6-45-vietlott-toi-510-hon-693-ti-dong-cho-nguoi-trung-185251005190158442.htm
+2025-10-06 00:24:18,274 - INFO - Fetching: https://thanhnien.vn/chua-co-doanh-nghiep-de-xuat-tham-gia-thi-truong-tai-san-ma-hoa-185251005172759672.htm
+2025-10-06 00:24:18,378 - INFO - Fetching: https://thanhnien.vn/lotte-doraemon-ball-voi-thanh-phan-xylitol-niem-vui-cho-be-an-tam-cho-me-185251005100115948.htm
+2025-10-06 00:24:18,840 - INFO - Fetching: https://thanhnien.vn/tphcm-o-ga-bai-rac-ngap-nuoc-bua-vay-duong-kha-van-can-nguoi-dan-than-kho-185251004155355025.htm
+2025-10-06 00:24:18,860 - INFO - Fetching: https://thanhnien.vn/doi-tuyen-viet-nam-3-tan-binh-tap-rieng-bui-tien-dung-vang-mat-it-ngay-vi-185251005155803425.htm
+2025-10-06 00:24:19,246 - INFO - [27/164] ✓ Crawled: Vùng trồng hoa, rau lớn nhất Hà Nội thiệt hại nặng...
+2025-10-06 00:24:19,359 - INFO - Fetching: https://thanhnien.vn/khong-nhuong-duong-cho-xe-uu-tien-tai-xe-tphcm-bi-phat-7-trieu-dong-185251005172554311.htm
+2025-10-06 00:24:19,517 - INFO - Fetching: https://thanhnien.vn/vu-3-nguoi-trong-mot-gia-dinh-tu-vong-tiec-thuong-2-vo-chong-hien-lanh-185251005182652515.htm
+2025-10-06 00:24:19,588 - INFO - Fetching: https://thanhnien.vn/hlv-kim-sang-sik-luu-y-mot-dieu-cuc-quan-trong-ve-u23-viet-nam-sao-viet-kieu-duoc-khen-ngoi-185251005182610901.htm
+2025-10-06 00:24:19,801 - INFO - Fetching: https://thanhnien.vn/khong-de-xay-ra-chay-chot-khi-sap-xep-cac-truong-dai-hoc-185251005171413322.htm
+2025-10-06 00:24:19,835 - INFO - Fetching: https://thanhnien.vn/dang-van-lam-tuoi-nhu-hoa-ngay-tro-lai-noi-dieu-bat-ngo-ve-cuoc-canh-tranh-voi-sao-tre-hagl-185251005155809026.htm
+2025-10-06 00:24:19,885 - INFO - Fetching: https://thanhnien.vn/tin-dung-bat-dong-san-tphcm-dong-nai-tang-gan-11-185251005165953145.htm
+2025-10-06 00:24:20,008 - INFO - Fetching: https://thanhnien.vn/vingroup-de-xuat-dau-tu-cau-vuot-bien-noi-can-gio-vung-tau-185251005174712275.htm
+2025-10-06 00:24:20,150 - INFO - [28/164] ✓ Crawled: Bão Matmo vào biên giới Việt - Trung, có thể gây m...
+2025-10-06 00:24:20,159 - INFO - Fetching: https://thanhnien.vn/tan-vo-dich-phuc-huynh-vuot-troi-truong-vinh-hien-so-ke-ly-hoang-nam-tren-bang-xep-hang-ppa-185251005175028579.htm
+2025-10-06 00:24:20,855 - INFO - Fetching: https://thanhnien.vn/cuc-dien-anh-xu-ly-vu-phim-hay-de-toi-toa-sang-chua-duong-luoi-bo-185251005164953437.htm
+2025-10-06 00:24:20,877 - INFO - Fetching: https://thanhnien.vn/thay-doi-o-ch-czech-se-de-doa-ho-tro-cho-ukraine-185251005173240908.htm
+2025-10-06 00:24:23,446 - INFO - [32/164] ✓ Crawled: Chuyên gia: 'Không uống rượu bia cũng là một lựa c...
+2025-10-06 00:24:24,436 - INFO - [33/164] ✓ Crawled: Bắt đầu sáp nhập trường đại học từ năm 2026...
+2025-10-06 00:24:26,214 - INFO - [35/164] ✓ Crawled: Người Hà Nội tìm cách bảo vệ ôtô trước bão Matmo...
+2025-10-06 00:24:30,196 - INFO - [40/164] ✓ Crawled: Hà Nội cho 2,3 triệu học sinh nghỉ học ngày 6/10...
+2025-10-06 00:24:35,124 - INFO - [48/164] ✓ Crawled: Yêu cầu liêm chính trong thi khoa học kỹ thuật của...
+2025-10-06 00:24:41,431 - INFO - [57/164] ✓ Crawled: Chủ tịch Hà Nội: Ứng phó bão Matmo cần tránh xáo t...
+2025-10-06 00:24:41,932 - INFO - [58/164] ✓ Crawled: Khu vực Bắc Bộ sẽ mưa to đến rất to do ảnh hưởng t...
+2025-10-06 00:24:45,169 - INFO - [62/164] ✓ Crawled: Sân bay Vân Đồn, Cát Bi có thể bị ảnh hưởng trực t...
+2025-10-06 00:24:50,944 - INFO - [69/164] ✓ Crawled: Khởi công nhà hát Opera Hà Nội hơn 12.700 tỷ đồng ...
+2025-10-06 00:24:52,646 - INFO - [71/164] ✓ Crawled: Thủ tướng chỉ đạo kiểm soát giá nhà đất đang ở mức...
+2025-10-06 00:24:57,017 - INFO - [77/164] ✓ Crawled: Địa phương chủ động cho học sinh nghỉ học ứng phó ...
+2025-10-06 00:24:57,672 - INFO - [78/164] ✓ Crawled: Ô tô Mercedes đỗ xe sai ở phố cổ Hà Nội bị người d...
+2025-10-06 00:24:58,442 - INFO - [79/164] ✓ Crawled: Xác minh clip tài xế xe máy tông vào ô tô đang dừn...
+2025-10-06 00:25:00,275 - INFO - [81/164] ✓ Crawled: Bộ trưởng Nội vụ: “Tăng cường cán bộ, công chức cấ...
+2025-10-06 00:25:03,312 - INFO - [85/164] ✓ Crawled: Bão Matmo đang trong giai đoạn mạnh nhất, tối nay ...
+2025-10-06 00:25:06,054 - INFO - [89/164] ✓ Crawled: Dự báo thời tiết 6/10/2025: Bão số 11 đổ bộ đất li...
+2025-10-06 00:25:09,428 - INFO - [93/164] ✓ Crawled: Hà Nội: Phát hiện thi thể nam giới nằm bất thường ...
+2025-10-06 00:25:10,299 - INFO - [94/164] ✓ Crawled: Máy bay bốc khói ở sân bay Tân Sơn Nhất khi chuẩn ...
+2025-10-06 00:25:11,934 - INFO - [96/164] ✓ Crawled: Hai mẹ con bị hành hung giữa đường, nạn nhân mang ...
+2025-10-06 00:25:21,368 - INFO - [109/164] ✓ Crawled: Khởi công dự án Nhà hát Ngọc Trai, vốn đầu tư hơn ...
+2025-10-06 00:25:22,203 - INFO - [110/164] ✓ Crawled: Dự báo thời tiết 5/10/2025: Bão số 11 vào Vịnh Bắc...
+2025-10-06 00:25:22,788 - INFO - [111/164] ✓ Crawled: Phòng bão Matmo: Chủ tịch Hà Nội khuyến khích làm ...
+2025-10-06 00:25:23,527 - INFO - [112/164] ✓ Crawled: Tin mới nhất về bão số 11 Matmo: Cách Quảng Ninh 4...
+2025-10-06 00:25:25,945 - INFO - [115/164] ✓ Crawled: Cháy ngân hàng ở Hà Nội...
+2025-10-06 00:25:34,178 - INFO - [126/164] ✓ Crawled: Huyền thoại kiến trúc Renzo Piano: 'Nhà hát Opera ...
+2025-10-06 00:25:40,632 - INFO - [134/164] ✓ Crawled: Người Việt sắp ngắm 3 siêu trăng liên tiếp: Nhìn r...
+2025-10-06 00:25:43,778 - INFO - [138/164] ✓ Crawled: Chủ tịch Hà Nội: Ứng phó bão Matmo cần tránh xáo t...
+2025-10-06 00:25:46,439 - INFO - [142/164] ✓ Crawled: Xem nhanh 20h ngày 5.10: Camera AI 'quét' đường ph...
+2025-10-06 00:25:49,758 - INFO - [147/164] ✓ Crawled: Tái thả 91 động vật rừng nguy cấp, quý hiếm về Vườ...
+2025-10-06 00:25:57,268 - INFO - [157/164] ✓ Crawled: HLV Kim Sang-sik lưu ý một điều cực quan trọng về ...
+2025-10-06 00:26:02,999 - INFO - 
+============================================================
+2025-10-06 00:26:02,999 - INFO - Finished: 38 new events added
+2025-10-06 00:26:02,999 - INFO - Total events: 38
+2025-10-06 00:26:02,999 - INFO - ============================================================
+2025-10-07 21:48:13,711 - INFO - ℹ OpenAI API not configured - using enhanced rule-based extraction
+2025-10-07 21:48:13,711 - INFO - ============================================================
+2025-10-07 21:48:13,711 - INFO - SafeMap Crawler - Enhanced with RSS Debug
+2025-10-07 21:48:13,711 - INFO - ============================================================
+2025-10-07 21:48:13,711 - INFO - JSON file is empty, starting fresh
+2025-10-07 21:48:13,711 - INFO - Loaded 0 existing events
+2025-10-07 21:48:13,712 - INFO - 
+============================================================
+2025-10-07 21:48:13,712 - INFO - PHASE 1: Collecting URLs from RSS feeds
+2025-10-07 21:48:13,712 - INFO - ============================================================
+2025-10-07 21:48:13,712 - INFO - Crawling RSS: VnExpress - https://vnexpress.net/rss/tin-moi-nhat.rss
+2025-10-07 21:48:13,818 - INFO -   Content-Type: application/xml; charset=utf-8
+2025-10-07 21:48:13,860 - INFO -   Feed status: N/A
+2025-10-07 21:48:13,860 - INFO -   Feed entries: 52
+2025-10-07 21:48:13,861 - INFO -   Processed 50 entries, found 50 recent articles
+2025-10-07 21:48:13,861 - INFO - ✓ Found 50 articles from last 24h for VnExpress
+2025-10-07 21:48:14,862 - INFO - Crawling RSS: Dân Trí - https://dantri.com.vn/rss/home.rss
+2025-10-07 21:48:14,997 - INFO -   Content-Type: application/rss+xml
+2025-10-07 21:48:15,118 - INFO -   Feed status: N/A
+2025-10-07 21:48:15,118 - INFO -   Feed entries: 100
+2025-10-07 21:48:15,119 - INFO -   Processed 50 entries, found 50 recent articles
+2025-10-07 21:48:15,119 - INFO - ✓ Found 50 articles from last 24h for Dân Trí
+2025-10-07 21:48:16,121 - INFO - Crawling RSS: Vietnamnet - https://vietnamnet.vn/rss/thoi-su.rss
+2025-10-07 21:48:16,417 - INFO -   Content-Type: application/xml
+2025-10-07 21:48:16,506 - INFO -   Feed status: N/A
+2025-10-07 21:48:16,506 - INFO -   Feed entries: 60
+2025-10-07 21:48:16,506 - INFO -   Processed 50 entries, found 50 recent articles
+2025-10-07 21:48:16,506 - INFO - ✓ Found 50 articles from last 24h for Vietnamnet
+2025-10-07 21:48:17,508 - INFO - Crawling RSS: Tuổi Trẻ - https://tuoitre.vn/rss/tin-moi-nhat.rss
+2025-10-07 21:48:17,636 - INFO -   Content-Type: text/xml; charset=utf-8
+2025-10-07 21:48:17,700 - INFO -   Feed status: N/A
+2025-10-07 21:48:17,700 - INFO -   Feed entries: 50
+2025-10-07 21:48:17,719 - INFO -   Processed 50 entries, found 0 recent articles
+2025-10-07 21:48:17,719 - WARNING -   No recent articles found, trying next URL...
+2025-10-07 21:48:17,719 - INFO - Crawling RSS: Tuổi Trẻ - https://tuoitre.vn/rss/thoi-su.rss
+2025-10-07 21:48:17,816 - INFO -   Content-Type: text/xml; charset=utf-8
+2025-10-07 21:48:17,865 - INFO -   Feed status: N/A
+2025-10-07 21:48:17,865 - INFO -   Feed entries: 50
+2025-10-07 21:48:17,872 - INFO -   Processed 50 entries, found 0 recent articles
+2025-10-07 21:48:17,872 - WARNING -   No recent articles found, trying next URL...
+2025-10-07 21:48:17,873 - INFO - Crawling RSS: Tuổi Trẻ - https://tuoitre.vn/rss/xa-hoi.rss
+2025-10-07 21:48:18,072 - INFO -   Content-Type: text/xml; charset=utf-8
+2025-10-07 21:48:18,132 - INFO -   Feed status: N/A
+2025-10-07 21:48:18,132 - INFO -   Feed entries: 50
+2025-10-07 21:48:18,141 - INFO -   Processed 50 entries, found 0 recent articles
+2025-10-07 21:48:18,141 - WARNING -   No recent articles found, trying next URL...
+2025-10-07 21:48:18,141 - WARNING - ✗ No articles found for Tuổi Trẻ from any RSS URL
+2025-10-07 21:48:19,143 - INFO - Crawling RSS: Thanh Niên - https://thanhnien.vn/rss/home.rss
+2025-10-07 21:48:19,591 - INFO -   Content-Type: text/xml; charset=utf-8
+2025-10-07 21:48:19,666 - INFO -   Feed status: N/A
+2025-10-07 21:48:19,667 - INFO -   Feed entries: 60
+2025-10-07 21:48:19,667 - INFO -   Processed 50 entries, found 50 recent articles
+2025-10-07 21:48:19,667 - INFO - ✓ Found 50 articles from last 24h for Thanh Niên
+2025-10-07 21:48:20,669 - INFO - 
+------------------------------------------------------------
+2025-10-07 21:48:20,669 - INFO - RSS Collection Summary:
+2025-10-07 21:48:20,669 - INFO -   VnExpress: 50 articles
+2025-10-07 21:48:20,669 - INFO -   Dân Trí: 50 articles
+2025-10-07 21:48:20,670 - INFO -   Vietnamnet: 50 articles
+2025-10-07 21:48:20,670 - INFO -   Tuổi Trẻ: 0 articles
+2025-10-07 21:48:20,670 - INFO -   Thanh Niên: 50 articles
+2025-10-07 21:48:20,670 - INFO - Total URLs collected: 200
+2025-10-07 21:48:20,670 - INFO - ------------------------------------------------------------
+
+2025-10-07 21:48:20,670 - INFO - 
+============================================================
+2025-10-07 21:48:20,670 - INFO - PHASE 2: Processing articles
+2025-10-07 21:48:20,670 - INFO - ============================================================
+2025-10-07 21:48:20,670 - INFO - Processing 200 articles with 8 workers...
+2025-10-07 21:48:20,671 - INFO - Fetching: https://vnexpress.net/dung-day-thung-cuu-ba-nguoi-giua-dong-lu-duoi-gam-cau-4948506.html
+2025-10-07 21:48:20,671 - INFO - Fetching: https://vnexpress.net/bi-an-sau-nhung-canh-hong-do-o-hien-truong-an-mang-4948481.html
+2025-10-07 21:48:20,674 - INFO - Fetching: https://vnexpress.net/canh-sat-anh-bat-bang-dang-cuop-giat-40-000-iphone-4948314.html
+2025-10-07 21:48:20,675 - INFO - Fetching: https://vnexpress.net/lu-cac-song-mien-bac-len-nhanh-4945743.html
+2025-10-07 21:48:20,677 - INFO - Fetching: https://vnexpress.net/noi-dan-vat-cua-con-tin-israel-tro-ve-tu-tay-hamas-4948239.html
+2025-10-07 21:48:20,679 - INFO - Fetching: https://vnexpress.net/buoc-ra-khoi-vo-kich-cua-ban-trai-voi-su-tinh-thuc-4948209.html
+2025-10-07 21:48:20,680 - INFO - Fetching: https://vnexpress.net/nha-khoa-hoc-tat-dien-thoai-lo-tin-doat-giai-nobel-y-sinh-2025-4948498.html
+2025-10-07 21:48:20,682 - INFO - Fetching: https://vnexpress.net/vneid-se-tich-hop-cap-nhat-578-loai-giay-to-4948478.html
+2025-10-07 21:48:21,175 - INFO - Fetching: https://vnexpress.net/nguoi-lang-son-mot-tuan-chay-lu-3-lan-4948447.html
+2025-10-07 21:48:21,392 - INFO - Fetching: https://vnexpress.net/viet-nam-quy-hoach-tan-so-de-phat-trien-cong-nghe-ve-tinh-6g-4948456.html
+2025-10-07 21:48:21,439 - INFO - Fetching: https://vnexpress.net/viet-nam-co-gan-11-trieu-tai-khoan-chung-khoan-truoc-nang-hang-4948490.html
+2025-10-07 21:48:21,637 - INFO - Fetching: https://vnexpress.net/oto-khach-bien-dang-sau-tai-nan-lien-hoan-4948493.html
+2025-10-07 21:48:21,644 - INFO - Fetching: https://vnexpress.net/nga-noi-uav-ukraine-dam-vao-nha-may-hat-nhan-tren-lanh-tho-4948496.html
+2025-10-07 21:48:21,708 - INFO - Fetching: https://vnexpress.net/hlv-arab-saudi-indonesia-hay-nhung-chung-toi-se-thang-4948500.html
+2025-10-07 21:48:21,745 - INFO - Fetching: https://vnexpress.net/nuoc-nao-co-gdp-binh-quan-dau-nguoi-cao-nhat-dong-nam-a-4948410.html
+2025-10-07 21:48:21,788 - INFO - Fetching: https://vnexpress.net/hang-tram-nguoi-xep-hang-tu-dem-de-nop-ho-so-mua-nha-o-xa-hoi-4948409.html
+2025-10-07 21:48:21,862 - INFO - Fetching: https://vnexpress.net/trong-nam-khinh-nu-la-gi-chuan-muc-kep-trinh-tiet-phu-nu-4948102.html
+2025-10-07 21:48:21,928 - INFO - Fetching: https://vnexpress.net/lacbird-ra-mat-tai-trien-lam-viie-2025-4948299.html
+2025-10-07 21:48:21,987 - INFO - Fetching: https://vnexpress.net/kham-pha-thi-truong-det-may-viet-nam-tai-vtg-2025-4946935.html
+2025-10-07 21:48:22,021 - INFO - Fetching: https://vnexpress.net/pvn-vay-1-ty-usd-lam-du-an-khi-lo-b-4948473.html
+2025-10-07 21:48:22,082 - INFO - Fetching: https://vnexpress.net/oto-boc-chay-trong-ham-trung-tam-thuong-mai-o-tp-hcm-4948489.html
+2025-10-07 21:48:22,154 - INFO - Fetching: https://vnexpress.net/hlv-kluivert-tam-ly-la-chia-khoa-de-indonesia-tim-ve-du-world-cup-4948491.html
+2025-10-07 21:48:22,254 - INFO - Fetching: https://vnexpress.net/ba-nguoi-chet-hon-4-800-nha-ngap-sau-bao-matmo-4948483.html
+2025-10-07 21:48:22,306 - INFO - Fetching: https://vnexpress.net/tp-hcm-yeu-cau-khoi-phuc-pha-binh-quoi-giam-un-tac-cho-khu-binh-trieu-4948434.html
+2025-10-07 21:48:22,354 - INFO - Fetching: https://vnexpress.net/hoang-phuc-tai-xuat-dien-anh-4948465.html
+2025-10-07 21:48:22,456 - INFO - Fetching: https://vnexpress.net/bat-dong-noi-bo-cua-hamas-de-doa-ke-hoach-hoa-binh-gaza-4948087.html
+2025-10-07 21:48:22,512 - INFO - Fetching: https://vnexpress.net/co-gai-17-tuoi-ke-giay-phut-quyet-dinh-o-vung-tu-than-everest-4948328.html
+2025-10-07 21:48:22,619 - INFO - Fetching: https://vnexpress.net/chia-tay-yeu-thuong-khong-du-lon-de-chung-toi-o-lai-ben-nhau-4948385.html
+2025-10-07 21:48:22,653 - INFO - Fetching: https://vnexpress.net/biz-mbbank-ho-tro-doanh-nghiep-duy-tri-giao-dich-trong-mua-mua-bao-4948472.html
+2025-10-07 21:48:22,672 - INFO - Fetching: https://vnexpress.net/5-cach-don-gian-giup-tre-phat-trien-tri-nao-4948354.html
+2025-10-07 21:48:22,844 - INFO - Fetching: https://vnexpress.net/volvo-car-saigon-ra-mat-showroom-moi-4948296.html
+2025-10-07 21:48:22,846 - INFO - Fetching: https://vnexpress.net/meo-giup-mui-thong-thoang-de-tho-4948284.html
+2025-10-07 21:48:22,864 - INFO - Fetching: https://vnexpress.net/4-mon-an-giup-runner-phuc-hoi-sau-buoi-chay-dem-ha-noi-4946288.html
+2025-10-07 21:48:22,937 - INFO - Fetching: https://vnexpress.net/nga-muon-my-lam-ro-thong-diep-ve-ten-lua-tomahawk-4948466.html
+2025-10-07 21:48:23,002 - INFO - Fetching: https://vnexpress.net/nguoi-dan-cam-cu-gan-dap-vo-o-lang-son-4948482.html
+2025-10-07 21:48:23,034 - INFO - Fetching: https://vnexpress.net/nuoc-lu-do-ve-trung-tam-thai-nguyen-cao-bang-4948332.html
+2025-10-07 21:48:23,130 - INFO - Fetching: https://vnexpress.net/galaxy-z-fold7-mo-rong-trai-nghiem-sang-tao-tren-smartphone-4948431.html
+2025-10-07 21:48:23,162 - INFO - Fetching: https://vnexpress.net/sat-lo-vui-lap-hai-vo-chong-trong-choi-canh-o-thanh-hoa-4948343.html
+2025-10-07 21:48:23,284 - INFO - Fetching: https://vnexpress.net/chua-nop-thue-ngay-khi-nhan-co-tuc-bang-chung-khoan-4948467.html
+2025-10-07 21:48:23,294 - INFO - Fetching: https://vnexpress.net/trung-uong-thao-luan-quy-che-bau-cu-va-chuong-trinh-dai-hoi-dang-14-4948471.html
+2025-10-07 21:48:23,487 - INFO - Fetching: https://vnexpress.net/nguoi-ha-noi-oan-minh-trong-tran-ngap-thu-ba-lien-tiep-4948358.html
+2025-10-07 21:48:23,544 - INFO - Fetching: https://vnexpress.net/aristino-ra-mat-bst-thu-dong-2025-chu-de-tiep-noi-huyen-thoai-4948313.html
+2025-10-07 21:48:23,598 - INFO - Fetching: https://vnexpress.net/5-thoi-quen-tot-cho-xuong-cua-phu-nu-tuoi-30-4948218.html
+2025-10-07 21:48:23,704 - INFO - Fetching: https://vnexpress.net/cu-nieng-xao-trung-kieu-dong-bang-bac-bo-4948469.html
+2025-10-07 21:48:23,763 - INFO - Fetching: https://vnexpress.net/hai-hinh-thai-gay-mua-lon-o-ha-noi-thai-nguyen-4948273.html
+2025-10-07 21:48:23,795 - INFO - Fetching: https://vnexpress.net/16-truong-o-tp-hcm-siet-dien-thoai-vao-gio-ra-choi-4948436.html
+2025-10-07 21:48:23,852 - INFO - Fetching: https://vnexpress.net/phat-hien-3-loai-dau-goi-dau-dung-dich-ve-sinh-gia-4948315.html
+2025-10-07 21:48:24,003 - INFO - Fetching: https://vnexpress.net/de-xuat-siet-cho-vay-voi-nguoi-mua-nha-thu-2-tro-di-4948428.html
+2025-10-07 21:48:24,032 - INFO - [5/200] ✓ Crawled: Lũ các sông miền Bắc lên nhanh...
+2025-10-07 21:48:24,054 - INFO - Fetching: https://vnexpress.net/vi-sao-nguoi-nhat-ky-thi-kinh-ram-4948276.html
+2025-10-07 21:48:24,144 - INFO - Fetching: https://vnexpress.net/nhan-vien-ngan-hang-nhat-trom-gan-2-6-trieu-usd-tien-vang-4948349.html
+2025-10-07 21:48:24,179 - INFO - Fetching: https://dantri.com.vn/thoi-su/hai-tau-va-cham-4-ngu-dan-roi-xuong-bien-mot-nguoi-mat-tich-20251007194402381.htm
+2025-10-07 21:48:24,312 - INFO - Fetching: https://dantri.com.vn/bat-dong-san/da-nang-so-hoa-12-trieu-thua-dat-ket-noi-du-lieu-quoc-gia-trong-90-ngay-20251007142910626.htm
+2025-10-07 21:48:24,341 - INFO - Fetching: https://dantri.com.vn/thoi-su/ngoi-nha-2-tang-o-ha-noi-boc-chay-giua-con-mua-lon-20251007203122917.htm
+2025-10-07 21:48:24,361 - INFO - Fetching: https://dantri.com.vn/the-gioi/eu-tinh-han-che-di-lai-voi-cac-nha-ngoai-giao-nga-moscow-len-tieng-20251007204716385.htm
+2025-10-07 21:48:24,475 - INFO - Fetching: https://dantri.com.vn/phap-luat/hang-chuc-thung-tai-lieu-duoc-dua-khoi-tru-so-cong-ty-cua-shark-binh-20251007202537045.htm
+2025-10-07 21:48:24,477 - INFO - Fetching: https://dantri.com.vn/kinh-doanh/tay-ninh-dan-dau-dong-nam-bo-ve-tang-truong-kinh-te-9-thang-dau-nam-20251007193257121.htm
+2025-10-07 21:48:24,514 - INFO - Fetching: https://dantri.com.vn/bat-dong-san/nguoi-dan-xep-hang-tu-mo-sang-tran-ca-ra-duong-de-giu-cho-mua-nha-o-xa-hoi-20251007161328907.htm
+2025-10-07 21:48:24,629 - INFO - Fetching: https://dantri.com.vn/thoi-su/lu-cac-song-len-nhanh-canh-bao-nhieu-tuyen-de-mat-an-toan-20251007184338486.htm
+2025-10-07 21:48:24,729 - INFO - Fetching: https://dantri.com.vn/the-thao/malaysia-phan-phao-fifa-bang-tuyen-bo-cung-ran-20251007191945851.htm
+2025-10-07 21:48:24,835 - INFO - Fetching: https://dantri.com.vn/noi-vu/giam-hoi-hop-de-tap-trung-van-hanh-nang-hieu-qua-bo-may-chinh-quyen-moi-20251007064605395.htm
+2025-10-07 21:48:24,944 - INFO - Fetching: https://dantri.com.vn/thoi-su/xuat-hien-lu-dac-biet-lon-thu-tuong-lenh-ung-pho-ngay-theo-cap-bao-dong-20251007194126911.htm
+2025-10-07 21:48:25,035 - INFO - Fetching: https://dantri.com.vn/thoi-su/trong-24-gio-camera-ai-o-ha-noi-phat-hien-40-truong-hop-vuot-den-do-20251007184240776.htm
+2025-10-07 21:48:25,242 - INFO - Fetching: https://dantri.com.vn/giai-tri/mon-qua-cho-tre-tho-tu-khuc-dong-dao-nhac-si-pham-tuyen-pho-nhac-20251007184722197.htm
+2025-10-07 21:48:25,287 - INFO - Fetching: https://dantri.com.vn/thoi-su/mua-lu-cuon-cuon-do-ve-nhieu-noi-o-lang-son-chim-trong-bien-nuoc-20251007190712481.htm
+2025-10-07 21:48:25,586 - INFO - Fetching: https://dantri.com.vn/the-gioi/nga-cao-buoc-ukraine-tap-kich-nha-may-dien-hat-nhan-trong-lanh-tho-20251007192955898.htm
+2025-10-07 21:48:25,723 - INFO - Fetching: https://dantri.com.vn/bat-dong-san/tphcm-da-go-vuong-2529-du-an-bat-dong-san-ton-dong-20251007181150429.htm
+2025-10-07 21:48:25,790 - INFO - Fetching: https://dantri.com.vn/kinh-doanh/xuat-hien-cong-cu-moi-giup-chung-si-tim-co-phieu-chia-co-tuc-cao-20251007190608560.htm
+2025-10-07 21:48:25,828 - INFO - Fetching: https://dantri.com.vn/kinh-doanh/chung-khoan-viet-nam-dat-11-trieu-tai-khoan-som-hon-5-nam-so-voi-muc-tieu-20251007185220288.htm
+2025-10-07 21:48:25,847 - INFO - [8/200] ✓ Crawled: Cảnh sát Anh bắt băng đảng cướp giật 40.000 Iphone...
+2025-10-07 21:48:25,904 - INFO - Fetching: https://dantri.com.vn/kinh-doanh/thuong-hieu-khan-va-phu-kien-em-be-piumie-ra-mat-tai-viet-nam-20251007184900389.htm
+2025-10-07 21:48:26,146 - INFO - Fetching: https://dantri.com.vn/kinh-doanh/su-co-vo-dap-thuy-dien-bac-khe-1-101-nhan-khau-bi-anh-huong-20251007184010893.htm
+2025-10-07 21:48:26,173 - INFO - Fetching: https://dantri.com.vn/the-thao/giai-chay-diana-unicharm-for-u-for-future-2025-gay-quy-ho-tro-phu-nu-va-tre-em-20251007163332393.htm
+2025-10-07 21:48:26,286 - INFO - Fetching: https://dantri.com.vn/kinh-doanh/ocb-cong-bo-bao-cao-phat-trien-ben-vung-doc-lap-2024-20251007143731899.htm
+2025-10-07 21:48:26,589 - INFO - Fetching: https://dantri.com.vn/the-thao/cdv-malaysia-chi-trich-fam-sau-khi-fifa-tung-bang-chung-day-du-20251007185121183.htm
+2025-10-07 21:48:26,653 - INFO - Fetching: https://dantri.com.vn/kinh-doanh/ngan-hang-dua-nhau-lap-cong-ty-bao-hiem-mo-rong-he-sinh-thai-20251007144917301.htm
+2025-10-07 21:48:26,725 - INFO - Fetching: https://dantri.com.vn/the-thao/bao-dong-nam-a-doi-lai-cong-bang-cho-tuyen-viet-nam-truoc-malaysia-20251007184023693.htm
+2025-10-07 21:48:26,871 - INFO - Fetching: https://dantri.com.vn/giai-tri/ta-dinh-phong-livestream-khoe-an-banh-mi-viet-nam-khen-ngon-xuat-sac-20251007112826742.htm
+2025-10-07 21:48:26,995 - INFO - Fetching: https://dantri.com.vn/bat-dong-san/sap-het-thoi-mua-nha-dau-tu-dau-co-duoc-vay-toi-70-80-gia-tri-20251007173646326.htm
+2025-10-07 21:48:27,008 - INFO - Fetching: https://dantri.com.vn/thoi-su/ha-noi-va-nhieu-tinh-phia-bac-tiep-tuc-mua-tu-dem-nay-den-sang-mai-20251007181913352.htm
+2025-10-07 21:48:27,085 - INFO - Fetching: https://dantri.com.vn/giao-duc/co-hoi-nhan-hoc-bong-toan-phan-tai-hoi-thao-dai-hoc-quan-ly-singapore-20251007175730533.htm
+2025-10-07 21:48:27,196 - INFO - Fetching: https://dantri.com.vn/suc-khoe/he-thong-benh-vien-lac-viet-ky-niem-20-nam-thanh-lap-20251007175134673.htm
+2025-10-07 21:48:27,397 - INFO - Fetching: https://dantri.com.vn/suc-khoe/nguoi-viet-ruoc-ky-sinh-trung-vao-nguoi-vi-thoi-quen-an-uong-20251007175922486.htm
+2025-10-07 21:48:27,401 - INFO - [10/200] ✓ Crawled: Việt Nam quy hoạch tần số để phát triển công nghệ ...
+2025-10-07 21:48:27,482 - INFO - Fetching: https://dantri.com.vn/the-gioi/nga-phat-canh-bao-dac-biet-o-kursk-20251007181546096.htm
+2025-10-07 21:48:27,620 - INFO - Fetching: https://dantri.com.vn/the-thao/tiet-lo-qua-trinh-fifa-dieu-tra-cau-thu-nhap-tich-cua-malaysia-20251007144737909.htm
+2025-10-07 21:48:27,652 - INFO - Fetching: https://dantri.com.vn/khoa-hoc/nobel-vat-ly-2025-vinh-danh-nha-khoa-hoc-mo-duong-ky-nguyen-luong-tu-20251007172301500.htm
+2025-10-07 21:48:27,752 - INFO - Fetching: https://dantri.com.vn/thoi-su/trung-uong-cho-y-kien-ve-thoi-gian-va-noi-dung-dai-hoi-dang-xiv-20251007160819893.htm
+2025-10-07 21:48:27,975 - INFO - Fetching: https://dantri.com.vn/tinh-yeu-gioi-tinh/muu-mo-giat-chong-de-duoc-lam-ba-hoang-toi-nhan-ve-cai-ket-cay-dang-20251007113842492.htm
+2025-10-07 21:48:28,048 - INFO - Fetching: https://dantri.com.vn/kinh-doanh/vo-dap-thuy-dien-bac-khe-1-bo-truong-cong-thuong-gui-cong-dien-hoa-toc-20251007171805552.htm
+2025-10-07 21:48:28,160 - INFO - Fetching: https://dantri.com.vn/the-gioi/hang-may-bay-airbus-pha-ky-luc-the-gioi-hang-chuc-nam-cua-doi-thu-boeing-20251007172614017.htm
+2025-10-07 21:48:28,654 - INFO - Fetching: https://dantri.com.vn/thoi-su/chay-tai-ham-giu-xe-trung-tam-thuong-mai-takashimaya-o-tphcm-20251007172721171.htm
+2025-10-07 21:48:28,659 - INFO - Fetching: https://dantri.com.vn/suc-khoe/bac-si-bat-khoc-nghen-ngao-ke-ve-hanh-trinh-chua-benh-dac-biet-20251007165940449.htm
+2025-10-07 21:48:28,670 - INFO - Fetching: https://dantri.com.vn/thoi-su/duong-tinh-789-o-tay-ninh-sap-thi-cong-tro-lai-sau-gan-2-thang-dap-chieu-20251007165254756.htm
+2025-10-07 21:48:28,731 - INFO - Fetching: https://dantri.com.vn/thoi-su/hang-loat-cot-dien-chieu-sang-gay-do-lo-loi-thep-chu-v-20251007164647901.htm
+2025-10-07 21:48:28,762 - INFO - Fetching: https://dantri.com.vn/thoi-su/sat-lo-2-ke-song-da-nang-cong-bo-tinh-huong-khan-cap-ve-thien-tai-20251007165153729.htm
+2025-10-07 21:48:28,964 - INFO - Fetching: https://dantri.com.vn/doi-song/vu-co-gai-choi-voi-giua-nuoc-lu-van-co-om-do-nguoi-trong-cuoc-len-tieng-20251007160558692.htm
+2025-10-07 21:48:29,107 - INFO - Fetching: https://dantri.com.vn/thoi-su/thu-tuong-khen-luc-luong-triet-pha-duong-day-buon-hon-777kg-ma-tuy-20251007170716510.htm
+2025-10-07 21:48:29,116 - INFO - Fetching: https://dantri.com.vn/phap-luat/cong-an-phat-hien-nhom-hoi-thanh-duc-chua-troi-me-hoat-dong-trai-phep-20251007170438758.htm
+2025-10-07 21:48:29,340 - INFO - Fetching: https://dantri.com.vn/the-gioi/israel-hamas-dam-phan-he-mo-co-hoi-cham-dut-xung-dot-gaza-20251007170910350.htm
+2025-10-07 21:48:29,365 - INFO - Fetching: https://dantri.com.vn/du-lich/can-gio-ron-rang-le-hoi-nghinh-ong-hang-tram-ngu-dan-ra-khoi-cau-binh-an-20251007155618573.htm
+2025-10-07 21:48:29,567 - INFO - Fetching: https://dantri.com.vn/the-gioi/giai-nobel-vat-ly-vinh-danh-3-nha-khoa-hoc-voi-nghien-cuu-ve-luong-tu-20251007165839839.htm
+2025-10-07 21:48:29,611 - INFO - Fetching: https://dantri.com.vn/cong-nghe/the-he-tre-tim-hieu-ve-blockchain-qua-cuoc-thi-the-next-genesis-20251007163752012.htm
+2025-10-07 21:48:29,791 - INFO - Fetching: https://vietnamnet.vn/loi-khai-cua-nghi-pham-dam-ban-gai-tu-vong-tren-via-he-o-tphcm-2450204.html
+2025-10-07 21:48:29,911 - INFO - Fetching: https://vietnamnet.vn/du-bao-thoi-tiet-8-10-2025-ha-noi-con-mua-to-cuc-bo-trong-buoi-sang-2449359.html
+2025-10-07 21:48:30,127 - INFO - Fetching: https://vietnamnet.vn/dong-dat-o-cao-bang-2450189.html
+2025-10-07 21:48:30,208 - INFO - Fetching: https://vietnamnet.vn/giam-doc-thuy-dien-bac-khe-1-thong-tin-ve-su-co-vo-dap-2450176.html
+2025-10-07 21:48:30,700 - INFO - Fetching: https://vietnamnet.vn/cu-dan-vua-nuoc-ha-noi-xot-ruot-nhin-o-to-chim-loi-ra-vao-bi-co-lap-2450117.html
+2025-10-07 21:48:30,800 - INFO - Fetching: https://vietnamnet.vn/chay-o-to-trong-ham-giu-xe-trung-tam-thuong-mai-o-tphcm-2450172.html
+2025-10-07 21:48:30,814 - INFO - Fetching: https://vietnamnet.vn/cap-nhat-106-diem-ngap-23-tuyen-duong-te-liet-co-noi-sau-toi-1m-o-ha-noi-2450166.html
+2025-10-07 21:48:30,819 - INFO - Fetching: https://vietnamnet.vn/lanh-dao-bo-nn-mt-den-hien-truong-vu-vo-dap-thuy-dien-o-lang-son-2450160.html
+2025-10-07 21:48:30,963 - INFO - Fetching: https://vietnamnet.vn/sat-lo-dat-vui-lap-khu-tro-o-thai-nguyen-mot-nam-sinh-tu-vong-2450158.html
+2025-10-07 21:48:31,323 - INFO - Fetching: https://vietnamnet.vn/nguoi-dan-ong-tu-vong-tren-canh-dong-manh-giay-gan-do-he-lo-danh-tinh-2450113.html
+2025-10-07 21:48:31,463 - INFO - Fetching: https://vietnamnet.vn/tan-hoang-song-nuoc-tren-quang-truong-my-dinh-2450108.html
+2025-10-07 21:48:31,575 - INFO - Fetching: https://vietnamnet.vn/chay-du-doi-kho-hang-gan-cho-lau-doi-o-tphcm-khoi-den-bao-trum-khu-dan-cu-2450112.html
+2025-10-07 21:48:32,269 - INFO - Fetching: https://vietnamnet.vn/hinh-hai-nao-cho-sieu-do-thi-tphcm-trong-tuong-lai-2450094.html
+2025-10-07 21:48:32,342 - INFO - Fetching: https://vietnamnet.vn/khoanh-khac-cay-cau-bien-dang-khi-dong-lu-duc-ngau-cuon-cuon-do-ve-o-cao-bang-2450092.html
+2025-10-07 21:48:32,534 - INFO - Fetching: https://vietnamnet.vn/nuoc-song-cau-len-nhanh-chong-mat-giam-doc-cong-an-ra-quyet-dinh-khan-cap-2450078.html
+2025-10-07 21:48:32,808 - INFO - Fetching: https://vietnamnet.vn/vo-dap-thuy-dien-o-lang-son-2450085.html
+2025-10-07 21:48:32,897 - INFO - Fetching: https://vietnamnet.vn/cong-an-ha-noi-dang-lam-viec-voi-shark-binh-2450045.html
+2025-10-07 21:48:33,121 - INFO - Fetching: https://vietnamnet.vn/tphcm-yeu-cau-day-nhanh-tien-do-du-an-cau-duong-binh-tien-va-4-du-an-bot-cua-ngo-2450038.html
+2025-10-07 21:48:33,500 - INFO - Fetching: https://vietnamnet.vn/canh-sat-kinh-te-dot-kich-bat-o-nhom-san-xuat-nuoc-uong-gia-2449935.html
+2025-10-07 21:48:34,003 - INFO - Fetching: https://vietnamnet.vn/va-cham-o-to-o-tphcm-tai-xe-xe-om-cong-nghe-tu-vong-ben-canh-thung-giao-do-an-2450057.html
+2025-10-07 21:48:34,012 - INFO - [18/200] ✓ Crawled: Lacbird ra mắt tại triển lãm VIIE 2025...
+2025-10-07 21:48:34,025 - INFO - Fetching: https://vietnamnet.vn/khap-noi-o-thai-nguyen-lang-son-ngap-sau-trong-nuoc-lu-2449998.html
+2025-10-07 21:48:34,298 - INFO - Fetching: https://vietnamnet.vn/ly-giai-mien-bac-mua-lon-nhu-trut-nuoc-so-sanh-hai-dot-mua-cuc-doan-tai-ha-noi-2449369.html
+2025-10-07 21:48:34,356 - INFO - Fetching: https://vietnamnet.vn/nguoi-phu-nu-nga-khi-di-qua-cho-ngap-canh-sat-ha-noi-lien-he-voi-dien-luc-2450018.html
+2025-10-07 21:48:34,504 - INFO - Fetching: https://vietnamnet.vn/muon-kieu-chong-ngap-o-thu-do-dan-chi-biet-ngao-ngan-tho-dai-2449978.html
+2025-10-07 21:48:34,956 - INFO - Fetching: https://vietnamnet.vn/canh-tuong-chan-chuong-tai-khu-do-thi-hang-sang-o-ha-noi-2449165.html
+2025-10-07 21:48:35,291 - INFO - Fetching: https://vietnamnet.vn/vu-hoc-vien-tan-cong-can-bo-tron-khoi-trai-cai-nghien-tam-giu-9-nguoi-cam-dau-2449988.html
+2025-10-07 21:48:35,437 - INFO - Fetching: https://vietnamnet.vn/gan-1-400-chuyen-bay-bi-huy-2450015.html
+2025-10-07 21:48:35,884 - INFO - Fetching: https://vietnamnet.vn/mat-phuong-huong-khi-doi-mat-vinh-keangnam-cang-nuoc-sau-my-dinh-2446859.html
+2025-10-07 21:48:35,987 - INFO - Fetching: https://vietnamnet.vn/con-ac-mong-luc-sang-som-o-thu-do-nuoc-menh-mong-tan-vanh-dai-3-tren-cao-2449954.html
+2025-10-07 21:48:36,495 - INFO - Fetching: https://vietnamnet.vn/khoi-to-tai-xe-xe-tai-gay-tai-nan-de-len-o-to-khien-4-tre-em-bi-thuong-nang-2449982.html
+2025-10-07 21:48:36,561 - INFO - Fetching: https://vietnamnet.vn/trung-tam-cao-bang-lai-ngap-lut-chu-tich-tinh-ban-bo-tinh-huong-khan-cap-2449938.html
+2025-10-07 21:48:36,664 - INFO - Fetching: https://vietnamnet.vn/cap-nhat-29-diem-ngap-sau-phuong-tien-khong-the-luu-thong-o-ha-noi-2449969.html
+2025-10-07 21:48:36,901 - INFO - Fetching: https://vietnamnet.vn/gia-dinh-5-nguoi-o-bac-ninh-roi-vao-hiem-canh-cong-an-nhan-tin-bao-khan-cap-2449953.html
+2025-10-07 21:48:37,250 - INFO - Fetching: https://vietnamnet.vn/cong-an-tiep-nhan-trinh-bao-lien-quan-den-shark-binh-cho-bao-lau-co-ket-qua-2449930.html
+2025-10-07 21:48:37,324 - INFO - Fetching: https://vietnamnet.vn/sat-lo-dat-o-thanh-hoa-vui-lap-hai-vo-chong-trong-lan-trai-2449958.html
+2025-10-07 21:48:37,341 - INFO - Fetching: https://vietnamnet.vn/bat-khan-cap-tai-xe-o-to-ban-tai-hung-ho-danh-nguoi-sau-va-cham-giao-thong-2449880.html
+2025-10-07 21:48:37,419 - INFO - Fetching: https://vietnamnet.vn/phan-no-tai-xe-lao-xe-trong-mua-ngap-suyt-can-trung-nguoi-di-bo-o-ha-noi-2449898.html
+2025-10-07 21:48:37,693 - INFO - Fetching: https://vietnamnet.vn/ha-noi-ngap-sau-mua-lon-do-bao-matmo-nhieu-ho-dan-tat-bat-tat-nuoc-chong-ngap-2449916.html
+2025-10-07 21:48:38,082 - INFO - Fetching: https://vietnamnet.vn/danh-sach-cac-tuyen-duong-ngap-ung-o-ha-noi-sang-7-10-2449893.html
+2025-10-07 21:48:38,491 - INFO - Fetching: https://vietnamnet.vn/clip-tia-set-cuc-manh-xe-toac-bau-troi-tai-ha-noi-2449883.html
+2025-10-07 21:48:38,559 - INFO - Fetching: https://vietnamnet.vn/cong-an-ha-noi-xuat-hien-o-toa-nha-co-tru-so-cong-ty-cua-shark-binh-2449870.html
+2025-10-07 21:48:38,877 - INFO - Fetching: https://vietnamnet.vn/duong-vua-ngap-vua-tac-nguoi-dan-ha-noi-tranh-thu-an-ngo-xep-hang-cho-di-chuyen-2449881.html
+2025-10-07 21:48:39,208 - INFO - Fetching: https://vietnamnet.vn/mua-nhu-trut-nuoc-xuyen-dem-loat-tuyen-pho-tai-ha-noi-lai-ngap-ung-2449862.html
+2025-10-07 21:48:39,219 - INFO - Fetching: https://vietnamnet.vn/vung-may-doi-luu-it-dich-chuyen-ha-noi-mua-lon-xoi-xa-den-khi-nao-2449370.html
+2025-10-07 21:48:39,687 - INFO - Fetching: https://vietnamnet.vn/cap-nhat-69-diem-ngap-ung-o-ha-noi-vao-sang-7-10-2449850.html
+2025-10-07 21:48:39,759 - INFO - Fetching: https://vietnamnet.vn/mua-lon-do-bao-matmo-nhieu-tuyen-pho-ha-noi-ngap-sau-giao-thong-kho-khan-2449848.html
+2025-10-07 21:48:39,766 - INFO - Fetching: https://vietnamnet.vn/bien-nguoi-do-ve-toa-thanh-tay-ninh-du-dai-le-100-nam-cua-dao-cao-dai-2449831.html
+2025-10-07 21:48:39,950 - INFO - Fetching: https://vietnamnet.vn/danh-sach-cac-diem-co-nguy-co-ngap-ung-tai-thanh-pho-ha-noi-ngay-7-10-2449840.html
+2025-10-07 21:48:40,063 - INFO - Fetching: https://vietnamnet.vn/mua-du-doi-suot-dem-ha-noi-lai-ngap-nang-o-nhieu-tuyen-pho-2449371.html
+2025-10-07 21:48:40,651 - INFO - Fetching: https://vietnamnet.vn/du-bao-thoi-tiet-7-10-2025-mien-bac-co-noi-mua-rat-to-ha-noi-mat-diu-2449396.html
+2025-10-07 21:48:40,828 - INFO - Fetching: https://thanhnien.vn/cuoc-song-cua-ca-si-a-tuan-sau-do-vo-hon-nhan-185251007192311355.htm
+2025-10-07 21:48:41,403 - INFO - Fetching: https://thanhnien.vn/bi-bom-o-bien-my-dinh-ngay-ha-noi-ngap-nang-185251007212537162.htm
+2025-10-07 21:48:41,426 - INFO - Fetching: https://thanhnien.vn/chay-trong-ham-toa-nha-takashimaya-o-trung-tam-tphcm-185251007210102029.htm
+2025-10-07 21:48:41,552 - INFO - Fetching: https://thanhnien.vn/hoi-nghi-ansci-2025-cap-nhat-nhung-tien-bo-trong-khoa-hoc-than-kinh-185251007211125597.htm
+2025-10-07 21:48:41,625 - INFO - Fetching: https://thanhnien.vn/xe-dau-keo-bo-tron-khoi-hien-truong-sau-tai-nan-chet-nguoi-185251007203309799.htm
+2025-10-07 21:48:42,043 - INFO - Fetching: https://thanhnien.vn/ha-noi-chi-ngan-sach-26-ti-sua-cau-vinh-tuy-sau-vu-chay-bai-xe-185251007204709566.htm
+2025-10-07 21:48:42,057 - INFO - Fetching: https://thanhnien.vn/ngay-nao-cung-1-ly-nuoc-chanh-dieu-gi-xay-ra-cho-tim-than-nao-185251007204916396.htm
+2025-10-07 21:48:42,194 - INFO - Fetching: https://thanhnien.vn/flycam-lu-song-cau-vuot-dinh-lich-su-thai-nguyen-menh-mong-nuoc-18525100720272257.htm
+2025-10-07 21:48:42,783 - INFO - Fetching: https://thanhnien.vn/billiards-tung-se-ri-lon-tay-co-viet-nam-thang-an-tuong-cao-thu-nguoi-my-185251007200544975.htm
+2025-10-07 21:48:42,883 - INFO - Fetching: https://thanhnien.vn/mercedes-lai-xa-hang-bo-doi-xe-choi-giam-gia-hon-1-ti-dong-185251007053849342.htm
+2025-10-07 21:48:42,908 - INFO - Fetching: https://thanhnien.vn/nga-cai-min-bay-bang-uav-cap-quang-phuc-kich-hau-can-ukraine-185251007200854924.htm
+2025-10-07 21:48:43,123 - INFO - Fetching: https://thanhnien.vn/xem-nhanh-20h-ngay-710-nuoc-chua-kip-rut-ha-noi-lai-mua-xoi-xa-dien-bien-bat-ngo-be-boi-nhap-tich-bong-da-malaysia-185251007194347071.htm
+2025-10-07 21:48:43,248 - INFO - Fetching: https://thanhnien.vn/ong-nguyen-van-tong-bi-bat-tam-giam-vi-xui-giuc-nguoi-khac-livestream-xuyen-tac-185251007185122175.htm
+2025-10-07 21:48:43,888 - INFO - Fetching: https://thanhnien.vn/ha-noi-nguoi-dan-ngan-ngam-vi-con-ngo-8-ngay-thi-ngap-7-185251007191746714.htm
+2025-10-07 21:48:43,899 - INFO - Fetching: https://thanhnien.vn/may-bay-quan-doi-san-sang-cuu-ho-tiep-te-khu-vuc-co-lap-do-mua-lu-18525100719333649.htm
+2025-10-07 21:48:43,925 - INFO - Fetching: https://thanhnien.vn/top-6-retinol-cu-thoa-la-da-cang-tre-bat-chap-tuoi-nao-cung-nguoc-ve-20-185251007195440908.htm
+2025-10-07 21:48:43,965 - INFO - Fetching: https://thanhnien.vn/tphcm-ai-giup-toa-giai-quyet-cong-viec-mot-cach-ngoan-muc-khong-lo-ro-ri-thong-tin-185251007191605452.htm
+2025-10-07 21:48:44,302 - INFO - Fetching: https://thanhnien.vn/ket-qua-xo-so-power-6-55-vietlott-toi-710-hon-35-ti-dong-cho-nguoi-trung-185251007191551583.htm
+2025-10-07 21:48:44,449 - INFO - Fetching: https://thanhnien.vn/xiaomi-17t-lo-dien-co-the-ra-mat-som-hon-nua-nam-185251007140725743.htm
+2025-10-07 21:48:44,696 - INFO - Fetching: https://thanhnien.vn/one-ui-85-se-la-ban-cap-nhat-khung-vuot-ngoai-mong-doi-185251006203535362.htm
+2025-10-07 21:48:44,842 - INFO - Fetching: https://thanhnien.vn/de-xuat-siet-cho-vay-mua-nha-thu-2-de-ha-nhiet-gia-bat-dong-san-185251007185821152.htm
+2025-10-07 21:48:44,893 - INFO - Fetching: https://thanhnien.vn/thai-nguyen-nhin-tu-tren-cao-nuoc-dang-cao-bao-vay-trung-tam-nguoi-dan-chay-lu-185251007181417323.htm
+2025-10-07 21:48:45,370 - INFO - Fetching: https://thanhnien.vn/dong-dat-34-do-o-cao-bang-185251007190037575.htm
+2025-10-07 21:48:45,676 - INFO - [34/200] ✓ Crawled: 4 món ăn giúp runner phục hồi sau buổi chạy đêm Hà...
+2025-10-07 21:48:45,756 - INFO - Fetching: https://thanhnien.vn/chuyen-gia-bong-da-malaysia-fam-khong-nen-dua-ra-khang-cao-phu-phiem-185251007165949241.htm
+2025-10-07 21:48:45,764 - INFO - Fetching: https://thanhnien.vn/my-muon-dai-hoc-gioi-han-du-hoc-sinh-o-muc-15-bat-buoc-thi-dau-vao-185251007183724401.htm
+2025-10-07 21:48:45,837 - INFO - Fetching: https://thanhnien.vn/da-nang-xe-may-bien-dang-sau-va-cham-voi-xe-tai-mot-nguoi-tu-vong-185251007171816209.htm
+2025-10-07 21:48:45,900 - INFO - Fetching: https://thanhnien.vn/fam-giai-trinh-nhan-vien-vo-tinh-tai-nham-tai-lieu-trong-qua-trinh-nop-ho-so-cau-thu-nhap-tich-185251007183637104.htm
+2025-10-07 21:48:46,398 - INFO - Fetching: https://thanhnien.vn/tai-nan-giao-thong-lien-hoan-tai-gia-lai-6-nguoi-bi-thuong-185251007180301598.htm
+2025-10-07 21:48:46,446 - INFO - [35/200] ✓ Crawled: Nga muốn Mỹ làm rõ thông điệp về tên lửa Tomahawk...
+2025-10-07 21:48:46,542 - INFO - Fetching: https://thanhnien.vn/trung-tam-hanh-chinh-chinh-tri-tinh-ba-ria-vung-tau-se-giao-cho-dai-hoc-y-duoc-tphcm-185251007174041645.htm
+2025-10-07 21:48:46,608 - INFO - Fetching: https://thanhnien.vn/boi-loi-da-bong-o-vinh-nuoc-sau-my-dinh-duoi-mua-tam-ta-185251007180312375.htm
+2025-10-07 21:48:47,308 - INFO - Fetching: https://thanhnien.vn/dien-vien-thien-an-co-bi-cat-vai-khoi-phim-cai-ma-sau-khi-vuong-on-ao-185251007171415616.htm
+2025-10-07 21:48:47,444 - INFO - Fetching: https://thanhnien.vn/trung-uong-dang-thao-luan-quy-che-bau-cu-tai-dai-hoi-xiv-185251007181823854.htm
+2025-10-07 21:48:47,540 - INFO - Fetching: https://thanhnien.vn/doi-tuyen-viet-nam-bat-ngo-tap-kin-hlv-kim-sang-sik-tinh-toan-ky-nhan-su-dau-nepal-185251006213324842.htm
+2025-10-07 21:48:47,681 - INFO - Fetching: https://thanhnien.vn/dai-ta-nguyen-thanh-long-van-hoa-la-suc-manh-mem-bao-ve-binh-yen-thu-do-185251007180918572.htm
+2025-10-07 21:48:47,722 - INFO - Fetching: https://thanhnien.vn/truc-loi-bao-hiem-nhan-tho-khach-hang-chan-chinh-co-thiet-thoi-185251007164401165.htm
+2025-10-07 21:48:47,916 - INFO - Fetching: https://thanhnien.vn/chay-o-to-trong-ham-giu-xe-trung-tam-thuong-mai-takashimaya-o-tphcm-18525100718050657.htm
+2025-10-07 21:48:48,127 - INFO - Fetching: https://thanhnien.vn/ngap-lut-lan-rong-o-thai-nguyen-khi-lu-song-cau-vuot-dinh-lich-su-185251007175209846.htm
+2025-10-07 21:48:48,262 - INFO - Fetching: https://thanhnien.vn/lai-suat-trai-phieu-doanh-nghiep-len-11-nam-185251007175944035.htm
+2025-10-07 21:48:48,334 - INFO - Fetching: https://thanhnien.vn/da-nang-nu-sinh-vien-bi-yeu-cau-vao-khach-san-lam-viec-voi-cong-an-gia-185251007173408252.htm
+2025-10-07 21:48:48,868 - INFO - Fetching: https://thanhnien.vn/doanh-nghiep-keu-qua-suc-bo-noi-vu-giu-nguyen-de-xuat-tang-luong-toi-thieu-72-185251007172949437.htm
+2025-10-07 21:48:48,942 - INFO - Fetching: https://thanhnien.vn/pakistan-khen-vu-khi-trung-quoc-the-hien-xuat-sac-truoc-an-do-185251007160918243.htm
+2025-10-07 21:48:48,966 - INFO - Fetching: https://thanhnien.vn/bac-si-khoc-nghen-khi-noi-ve-chuyen-luan-phien-dac-biet-o-dac-khu-con-dao-185251007174112575.htm
+2025-10-07 21:48:49,450 - INFO - Fetching: https://thanhnien.vn/dap-dich-ta-heo-chau-phi-tren-dia-ban-khanh-hoa-185251007160322919.htm
+2025-10-07 21:48:49,553 - INFO - Fetching: https://thanhnien.vn/thoi-trang-tre/quan-tay-xep-ly-chinh-phuc-phong-cach-duong-pho-mua-thu-dong-185251007110622048.htm
+2025-10-07 21:48:49,615 - INFO - Fetching: https://thanhnien.vn/phu-quoc-sap-co-show-nghe-thuat-bom-tan-dang-cap-the-gioi-185251007173739657.htm
+2025-10-07 21:48:49,698 - INFO - Fetching: https://thanhnien.vn/thu-tuong-khen-bien-phong-cong-an-triet-pha-duong-day-mua-ban-777-kg-ma-tuy-185251007172835227.htm
+2025-10-07 21:48:49,854 - INFO - Fetching: https://thanhnien.vn/truong-dh-cuu-long-them-3-chuong-trinh-dao-tao-dat-chuan-kiem-dinh-chat-luong-185251007114031905.htm
+2025-10-07 21:48:50,287 - INFO - Fetching: https://thanhnien.vn/tphcm-16-truong-thi-diem-han-che-hoc-sinh-su-dung-dien-thoai-la-nhung-truong-nao-185251007172225504.htm
+2025-10-07 21:48:50,296 - INFO - Fetching: https://thanhnien.vn/mot-start-up-tu-chuong-trinh-shark-tank-nhan-tai-tro-von-hang-trieu-usd-185251007171719256.htm
+2025-10-07 21:48:50,837 - INFO - Fetching: https://thanhnien.vn/chay-kho-hang-gan-cho-vo-thanh-trang-tieu-thuong-lo-so-chay-lan-185251007172505889.htm
+2025-10-07 21:48:53,526 - INFO - [44/200] ✓ Crawled: Hai hình thái gây mưa lớn ở Hà Nội, Thái Nguyên...
+2025-10-07 21:48:54,450 - INFO - [45/200] ✓ Crawled: 16 trường ở TP HCM siết điện thoại vào giờ ra chơi...
+2025-10-07 21:48:56,538 - INFO - [48/200] ✓ Crawled: Đề xuất siết cho vay với người mua nhà thứ 2 trở đ...
+2025-10-07 21:49:01,165 - INFO - [54/200] ✓ Crawled: Người Hà Nội oằn mình trong trận ngập thứ ba liên ...
+2025-10-07 21:49:02,755 - INFO - [56/200] ✓ Crawled: Lũ các sông lên nhanh, cảnh báo nhiều tuyến đê mất...
+2025-10-07 21:49:03,638 - INFO - [57/200] ✓ Crawled: Ngôi nhà 2 tầng ở Hà Nội bốc cháy giữa cơn mưa lớn...
+2025-10-07 21:49:05,656 - INFO - [60/200] ✓ Crawled: Hàng chục thùng tài liệu được đưa khỏi trụ sở công...
+2025-10-07 21:49:06,600 - INFO - [61/200] ✓ Crawled: Xuất hiện lũ đặc biệt lớn, Thủ tướng lệnh ứng phó ...
+2025-10-07 21:49:07,525 - INFO - [62/200] ✓ Crawled: Trong 24 giờ, camera AI ở Hà Nội phát hiện 40 trườ...
+2025-10-07 21:49:20,808 - INFO - [78/200] ✓ Crawled: Hệ thống Bệnh viện Lạc Việt kỷ niệm 20 năm thành l...
+2025-10-07 21:49:22,073 - INFO - [80/200] ✓ Crawled: Hà Nội và nhiều tỉnh phía Bắc tiếp tục mưa từ đêm ...
+2025-10-07 21:49:23,427 - INFO - [82/200] ✓ Crawled: Nobel Vật lý 2025 vinh danh nhà khoa học mở đường ...
+2025-10-07 21:49:40,653 - INFO - [103/200] ✓ Crawled: Dự báo thời tiết 8/10/2025: Hà Nội còn mưa to cục ...
+2025-10-07 21:49:41,263 - INFO - [104/200] ✓ Crawled: Cư dân 'vựa nước' Hà Nội xót ruột nhìn ô tô chìm, ...
+2025-10-07 21:49:45,850 - INFO - [109/200] ✓ Crawled: Cập nhật: 106 điểm ngập, 23 tuyến đường tê liệt có...
+2025-10-07 21:49:48,810 - INFO - [114/200] ✓ Crawled: Tan hoang sóng nước trên Quảng trường Mỹ Đình...
+2025-10-07 21:49:50,429 - INFO - [116/200] ✓ Crawled: Công an Hà Nội đang làm việc với Shark Bình...
+2025-10-07 21:49:55,448 - INFO - [122/200] ✓ Crawled: Lý giải miền Bắc mưa lớn như trút nước, so sánh ha...
+2025-10-07 21:49:57,212 - INFO - [124/200] ✓ Crawled: Người phụ nữ ngã úp mặt khi đi qua chỗ ngập, cảnh ...
+2025-10-07 21:49:57,715 - INFO - [125/200] ✓ Crawled: Muôn kiểu chống ngập ở Thủ đô, một tháng 2 trận mư...
+2025-10-07 21:49:59,316 - INFO - [127/200] ✓ Crawled: Bốn bề ngập sâu, mất phương hướng ở 'vịnh Keangnam...
+2025-10-07 21:49:59,989 - INFO - [128/200] ✓ Crawled: 'Cơn ác mộng' lúc sáng sớm tại Thủ đô, nước mênh m...
+2025-10-07 21:50:00,605 - INFO - [129/200] ✓ Crawled: Cảnh tượng chán chường tại khu đô thị hạng sang, g...
+2025-10-07 21:50:01,907 - INFO - [131/200] ✓ Crawled: Cập nhật 122 điểm ngập, 29 điểm phương tiện không ...
+2025-10-07 21:50:04,928 - INFO - [135/200] ✓ Crawled: Phẫn nộ tài xế lao xe trong mưa ngập, suýt cán trú...
+2025-10-07 21:50:06,536 - INFO - [137/200] ✓ Crawled: Sáng 7/10: Công an Hà Nội cảnh báo các tuyến đường...
+2025-10-07 21:50:07,972 - INFO - [139/200] ✓ Crawled: Công an tiếp nhận trình báo liên quan Shark Bình, ...
+2025-10-07 21:50:09,707 - INFO - [141/200] ✓ Crawled: Công an Hà Nội xuất hiện tại tòa nhà có trụ sở côn...
+2025-10-07 21:50:11,549 - INFO - [143/200] ✓ Crawled: Clip tia sét cực mạnh 'xé toạc' bầu trời tại Hà Nộ...
+2025-10-07 21:50:12,902 - INFO - [145/200] ✓ Crawled: Vùng mây đối lưu ít dịch chuyển, Hà Nội mưa lớn xố...
+2025-10-07 21:50:13,832 - INFO - [146/200] ✓ Crawled: Hậu bão số 11 Matmo: Hà Nội mưa lớn dồn dập sáng 7...
+2025-10-07 21:50:15,631 - INFO - [148/200] ✓ Crawled: Cập nhật 90 điểm ngập úng ở Hà Nội sáng 7/10...
+2025-10-07 21:50:16,268 - INFO - [149/200] ✓ Crawled: Ngập sâu 69 điểm khiến Hà Nội lại 'thất thủ', xe c...
+2025-10-07 21:50:16,777 - INFO - [150/200] ✓ Crawled: Dự báo thời tiết 7/10/2025: Miền Bắc có nơi mưa rấ...
+2025-10-07 21:50:17,290 - INFO - [151/200] ✓ Crawled: Bì bõm ở 'biển Mỹ Đình' ngày Hà Nội ngập nặng...
+2025-10-07 21:50:21,165 - INFO - [156/200] ✓ Crawled: Hà Nội chi ngân sách 2,6 tỉ sửa cầu Vĩnh Tuy sau v...
+2025-10-07 21:50:24,142 - INFO - [160/200] ✓ Crawled: Xem nhanh 20h ngày 7.10: Nước chưa kịp rút, Hà Nội...
+2025-10-07 21:50:26,384 - INFO - [163/200] ✓ Crawled: Máy bay quân đội sẵn sàng cứu hộ, tiếp tế khu vực ...
+2025-10-07 21:50:27,863 - INFO - [165/200] ✓ Crawled: Hà Nội: Người dân ngán ngẩm vì con ngõ '8 ngày thì...
+2025-10-07 21:50:32,288 - INFO - [171/200] ✓ Crawled: Động đất 3.4 độ ở Cao Bằng...
+2025-10-07 21:50:35,328 - INFO - [175/200] ✓ Crawled: Đề xuất siết cho vay mua nhà thứ 2 để hạ nhiệt giá...
+2025-10-07 21:50:38,839 - INFO - [180/200] ✓ Crawled: Bơi lội, đá bóng ở 'vịnh nước sâu' Mỹ Đình dưới mư...
+2025-10-07 21:50:40,584 - INFO - [182/200] ✓ Crawled: Đại tá Nguyễn Thành Long: Văn hóa là sức mạnh mềm ...
+2025-10-07 21:50:52,764 - INFO - [198/200] ✓ Crawled: Một start-up từ chương trình Shark Tank nhận tài t...
+2025-10-07 21:50:54,642 - INFO - 
+============================================================
+2025-10-07 21:50:54,642 - INFO - Finished: 50 new events added
+2025-10-07 21:50:54,642 - INFO - Total events: 50
+2025-10-07 21:50:54,643 - INFO - ============================================================
