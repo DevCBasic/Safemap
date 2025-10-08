@@ -1,0 +1,818 @@
+[
+{
+    "Dia_diem": [
+        "Thái Nguyên",
+        "Bắc Ninh",
+        "Lạng Sơn",
+        "Cao Bằng",
+        "miền Bắc"
+    ],
+    "Thong_tin_chi_tiet": [
+        {
+            "Linh_vuc": [
+                "Thiên tai & Môi trường"
+            ],
+            "Muc_do_nguy_hiem": [
+                "Cảnh báo nguy hiểm"
+            ],
+            "url": [
+                "https://vnexpress.net/lu-cac-song-mien-bac-len-nhanh-4945743.html"
+            ]
+        }
+    ]
+},
+{
+    "Dia_diem": [
+        "Hà Nội",
+        "Việt Nam"
+    ],
+    "Thong_tin_chi_tiet": [
+        {
+            "Linh_vuc": [
+                "Cộng đồng & Dịch vụ"
+            ],
+            "Muc_do_nguy_hiem": [
+                "Tích cực"
+            ],
+            "url": [
+                "https://vnexpress.net/viet-nam-quy-hoach-tan-so-de-phat-trien-cong-nghe-ve-tinh-6g-4948456.html"
+            ]
+        }
+    ]
+},
+{
+    "Dia_diem": [
+        "Hòa Lạc",
+        "Hà Nội"
+    ],
+    "Thong_tin_chi_tiet": [
+        {
+            "Linh_vuc": [
+                "Cộng đồng & Dịch vụ"
+            ],
+            "Muc_do_nguy_hiem": [
+                "Tích cực"
+            ],
+            "url": [
+                "https://vnexpress.net/lacbird-ra-mat-tai-trien-lam-viie-2025-4948299.html"
+            ]
+        }
+    ]
+},
+{
+    "Dia_diem": [
+        "42 Trần Nhật Duật",
+        "195 Đội Cấn"
+    ],
+    "Thong_tin_chi_tiet": [
+        {
+            "Linh_vuc": [
+                "Cộng đồng & Dịch vụ"
+            ],
+            "Muc_do_nguy_hiem": [
+                "Tích cực"
+            ],
+            "url": [
+                "https://vnexpress.net/4-mon-an-giup-runner-phuc-hoi-sau-buoi-chay-dem-ha-noi-4946288.html"
+            ]
+        }
+    ]
+},
+{
+    "Dia_diem": [
+        "Thái Nguyên",
+        "Mễ Trì",
+        "Định Công",
+        "Tuyên Quang"
+    ],
+    "Thong_tin_chi_tiet": [
+        {
+            "Linh_vuc": [
+                "Thiên tai & Môi trường",
+                "Giao thông & Hạ tầng"
+            ],
+            "Muc_do_nguy_hiem": [
+                "Cảnh báo nguy hiểm"
+            ],
+            "url": [
+                "https://vnexpress.net/hai-hinh-thai-gay-mua-lon-o-ha-noi-thai-nguyen-4948273.html"
+            ]
+        }
+    ]
+},
+{
+    "Dia_diem": [
+        "Bình Dương",
+        "Bà Rịa - Vũng Tàu"
+    ],
+    "Thong_tin_chi_tiet": [
+        {
+            "Linh_vuc": [
+                "Cộng đồng & Dịch vụ"
+            ],
+            "Muc_do_nguy_hiem": [
+                "Tích cực"
+            ],
+            "url": [
+                "https://vnexpress.net/16-truong-o-tp-hcm-siet-dien-thoai-vao-gio-ra-choi-4948436.html"
+            ]
+        }
+    ]
+},
+{
+    "Dia_diem": [
+        "TP HCM"
+    ],
+    "Thong_tin_chi_tiet": [
+        {
+            "Linh_vuc": [
+                "Cộng đồng & Dịch vụ"
+            ],
+            "Muc_do_nguy_hiem": [
+                "Tích cực"
+            ],
+            "url": [
+                "https://vnexpress.net/de-xuat-siet-cho-vay-voi-nguoi-mua-nha-thu-2-tro-di-4948428.html"
+            ]
+        }
+    ]
+},
+{
+    "Dia_diem": [
+        "Không rõ"
+    ],
+    "Thong_tin_chi_tiet": [
+        {
+            "Linh_vuc": [
+                "Thiên tai & Môi trường",
+                "Giao thông & Hạ tầng"
+            ],
+            "Muc_do_nguy_hiem": [
+                "Cảnh báo nguy hiểm"
+            ],
+            "url": [
+                "https://vnexpress.net/nguoi-ha-noi-oan-minh-trong-tran-ngap-thu-ba-lien-tiep-4948358.html"
+            ]
+        },
+        {
+            "Linh_vuc": [
+                "An ninh Trật tự Tội phạm"
+            ],
+            "Muc_do_nguy_hiem": [
+                "Cảnh báo trung bình"
+            ],
+            "url": [
+                "https://dantri.com.vn/phap-luat/hang-chuc-thung-tai-lieu-duoc-dua-khoi-tru-so-cong-ty-cua-shark-binh-20251007202537045.htm"
+            ]
+        },
+        {
+            "Linh_vuc": [
+                "An ninh Trật tự Tội phạm"
+            ],
+            "Muc_do_nguy_hiem": [
+                "Cảnh báo trung bình"
+            ],
+            "url": [
+                "https://vietnamnet.vn/cong-an-ha-noi-dang-lam-viec-voi-shark-binh-2450045.html"
+            ]
+        },
+        {
+            "Linh_vuc": [
+                "Thiên tai & Môi trường",
+                "Giao thông & Hạ tầng"
+            ],
+            "Muc_do_nguy_hiem": [
+                "Cảnh báo nguy hiểm"
+            ],
+            "url": [
+                "https://vietnamnet.vn/cap-nhat-29-diem-ngap-sau-phuong-tien-khong-the-luu-thong-o-ha-noi-2449969.html"
+            ]
+        },
+        {
+            "Linh_vuc": [
+                "Giao thông & Hạ tầng",
+                "Thiên tai & Môi trường",
+                "Cộng đồng & Dịch vụ"
+            ],
+            "Muc_do_nguy_hiem": [
+                "Nhắc nhở"
+            ],
+            "url": [
+                "https://vietnamnet.vn/danh-sach-cac-tuyen-duong-ngap-ung-o-ha-noi-sang-7-10-2449893.html"
+            ]
+        },
+        {
+            "Linh_vuc": [
+                "An ninh Trật tự Tội phạm"
+            ],
+            "Muc_do_nguy_hiem": [
+                "Nhắc nhở"
+            ],
+            "url": [
+                "https://vietnamnet.vn/cong-an-tiep-nhan-trinh-bao-lien-quan-den-shark-binh-cho-bao-lau-co-ket-qua-2449930.html"
+            ]
+        },
+        {
+            "Linh_vuc": [
+                "An ninh Trật tự Tội phạm"
+            ],
+            "Muc_do_nguy_hiem": [
+                "Nhắc nhở"
+            ],
+            "url": [
+                "https://vietnamnet.vn/cong-an-ha-noi-xuat-hien-o-toa-nha-co-tru-so-cong-ty-cua-shark-binh-2449870.html"
+            ]
+        },
+        {
+            "Linh_vuc": [
+                "Thiên tai & Môi trường",
+                "Giao thông & Hạ tầng"
+            ],
+            "Muc_do_nguy_hiem": [
+                "Cảnh báo nguy hiểm"
+            ],
+            "url": [
+                "https://thanhnien.vn/bi-bom-o-bien-my-dinh-ngay-ha-noi-ngap-nang-185251007212537162.htm"
+            ]
+        },
+        {
+            "Linh_vuc": [
+                "Thiên tai & Môi trường",
+                "Giao thông & Hạ tầng"
+            ],
+            "Muc_do_nguy_hiem": [
+                "Cảnh báo nguy hiểm"
+            ],
+            "url": [
+                "https://thanhnien.vn/xem-nhanh-20h-ngay-710-nuoc-chua-kip-rut-ha-noi-lai-mưa-xoi-xa-dien-bien-bat-ngo-be-boi-nhap-tich-bong-da-malaysia-185251007194347071.htm"
+            ]
+        },
+        {
+            "Linh_vuc": [
+                "Thiên tai & Môi trường",
+                "Cộng đồng & Dịch vụ"
+            ],
+            "Muc_do_nguy_hiem": [
+                "Cảnh báo nguy hiểm"
+            ],
+            "url": [
+                "https://thanhnien.vn/may-bay-quan-doi-san-sang-cuu-ho-tiep-te-khu-vuc-co-lap-do-mưa-lu-18525100719333649.htm"
+            ]
+        },
+        {
+            "Linh_vuc": [
+                "Thiên tai & Môi trường",
+                "Cộng đồng & Dịch vụ"
+            ],
+            "Muc_do_nguy_hiem": [
+                "Cảnh báo nguy hiểm"
+            ],
+            "url": [
+                "https://thanhnien.vn/ha-noi-nguoi-dan-ngan-ngam-vi-con-ngo-8-ngay-thi-ngap-7-185251007191746714.htm"
+            ]
+        },
+        {
+            "Linh_vuc": [
+                "Thiên tai & Môi trường",
+                "Giao thông & Hạ tầng"
+            ],
+            "Muc_do_nguy_hiem": [
+                "Cảnh báo nguy hiểm"
+            ],
+            "url": [
+                "https://thanhnien.vn/boi-loi-da-bong-o-vinh-nuoc-sau-my-dinh-duoi-mưa-tam-ta-185251007180312375.htm"
+            ]
+        },
+        {
+            "Linh_vuc": [
+                "Cộng đồng & Dịch vụ",
+                "An ninh Trật tự Tội phạm"
+            ],
+            "Muc_do_nguy_hiem": [
+                "Tích cực"
+            ],
+            "url": [
+                "https://thanhnien.vn/dai-ta-nguyen-thanh-long-van-hoa-la-suc-manh-mem-bao-ve-binh-yen-thu-do-185251007180918572.htm"
+            ]
+        }
+    ]
+},
+{
+    "Dia_diem": [
+        "Bắc Ninh",
+        "Hải Phòng"
+    ],
+    "Thong_tin_chi_tiet": [
+        {
+            "Linh_vuc": [
+                "Thiên tai & Môi trường",
+                "Giao thông & Hạ tầng"
+            ],
+            "Muc_do_nguy_hiem": [
+                "Cảnh báo nguy hiểm"
+            ],
+            "url": [
+                "https://dantri.com.vn/thoi-su/lu-cac-song-len-nhanh-canh-bao-nhieu-tuyen-de-mat-an-toan-20251007184338486.htm"
+            ]
+        }
+    ]
+},
+{
+    "Dia_diem": [
+        "Đống Đa",
+        "Hà Nội"
+    ],
+    "Thong_tin_chi_tiet": [
+        {
+            "Linh_vuc": [
+                "Cháy nổ & Sự cố kỹ thuật"
+            ],
+            "Muc_do_nguy_hiem": [
+                "Cảnh báo trung bình"
+            ],
+            "url": [
+                "https://dantri.com.vn/thoi-su/ngoi-nha-2-tang-o-ha-noi-boc-chay-giua-con-mua-lon-20251007203122917.htm"
+            ]
+        }
+    ]
+},
+{
+    "Dia_diem": [
+        "Hà Nội",
+        "Bắc Ninh",
+        "Lạng Sơn",
+        "Cao Bằng",
+        "Bắc Bộ",
+        "Thanh Hóa",
+        "cầu Gia Bẩy"
+    ],
+    "Thong_tin_chi_tiet": [
+        {
+            "Linh_vuc": [
+                "Thiên tai & Môi trường"
+            ],
+            "Muc_do_nguy_hiem": [
+                "Cảnh báo nguy hiểm"
+            ],
+            "url": [
+                "https://dantri.com.vn/thoi-su/xuat-hien-lu-dac-biet-lon-thu-tuong-lenh-ung-pho-ngay-theo-cap-bao-dong-20251007194126911.htm"
+            ]
+        }
+    ]
+},
+{
+    "Dia_diem": [
+        "Hà Nội"
+    ],
+    "Thong_tin_chi_tiet": [
+        {
+            "Linh_vuc": [
+                "An ninh Trật tự Tội phạm",
+                "Giao thông & Hạ tầng"
+            ],
+            "Muc_do_nguy_hiem": [
+                "Nhắc nhở"
+            ],
+            "url": [
+                "https://dantri.com.vn/thoi-su/trong-24-gio-camera-ai-o-ha-noi-phat-hien-40-truong-hop-vuot-den-do-20251007184240776.htm"
+            ]
+        },
+        {
+            "Linh_vuc": [
+                "Thiên tai & Môi trường"
+            ],
+            "Muc_do_nguy_hiem": [
+                "Cảnh báo nguy hiểm"
+            ],
+            "url": [
+                "https://vietnamnet.vn/canh-tuong-chan-chuong-tai-khu-do-thi-hang-sang-o-ha-noi-2449165.html"
+            ]
+        }
+    ]
+},
+{
+    "Dia_diem": [
+        "Vĩnh Phúc",
+        "Phúc Yên",
+        "Phú Thọ",
+        "Hà Nội",
+        "Phòng khám Quán Sứ"
+    ],
+    "Thong_tin_chi_tiet": [
+        {
+            "Linh_vuc": [
+                "Cộng đồng & Dịch vụ"
+            ],
+            "Muc_do_nguy_hiem": [
+                "Tích cực"
+            ],
+            "url": [
+                "https://dantri.com.vn/suc-khoe/he-thong-benh-vien-lac-viet-ky-niem-20-nam-thanh-lap-20251007175134673.htm"
+            ]
+        }
+    ]
+},
+{
+    "Dia_diem": [
+        "Bắc Bộ",
+        "Thanh Hóa"
+    ],
+    "Thong_tin_chi_tiet": [
+        {
+            "Linh_vuc": [
+                "Thiên tai & Môi trường"
+            ],
+            "Muc_do_nguy_hiem": [
+                "Cảnh báo trung bình"
+            ],
+            "url": [
+                "https://dantri.com.vn/thoi-su/ha-noi-va-nhieu-tinh-phia-bac-tiep-tuc-mưa-tu-dem-nay-den-sang-mai-20251007181913352.htm"
+            ]
+        }
+    ]
+},
+{
+    "Dia_diem": [
+        "Bắc Bộ",
+        "Thanh Hóa",
+        "Tuyên Quang",
+        "Cao Bằng",
+        "Thái Nguyên",
+        "Bắc Ninh",
+        "Tây Bắc",
+        "Việt Bắc"
+    ],
+    "Thong_tin_chi_tiet": [
+        {
+            "Linh_vuc": [
+                "Thiên tai & Môi trường"
+            ],
+            "Muc_do_nguy_hiem": [
+                "Cảnh báo trung bình"
+            ],
+            "url": [
+                "https://vietnamnet.vn/du-bao-thoi-tiet-8-10-2025-ha-noi-con-mua-to-cuc-bo-trong-buoi-sang-2449359.html"
+            ]
+        }
+    ]
+},
+{
+    "Dia_diem": [
+        "Ecohome 3",
+        "Đông Ngạc"
+    ],
+    "Thong_tin_chi_tiet": [
+        {
+            "Linh_vuc": [
+                "Thiên tai & Môi trường",
+                "Giao thông & Hạ tầng"
+            ],
+            "Muc_do_nguy_hiem": [
+                "Cảnh báo nguy hiểm"
+            ],
+            "url": [
+                "https://vietnamnet.vn/cu-dan-vua-nuoc-ha-noi-xot-ruot-nhin-o-to-chim-loi-ra-vao-bi-co-lap-2450117.html"
+            ]
+        }
+    ]
+},
+{
+    "Dia_diem": [
+        "lưu vực sông Tô Lịch"
+    ],
+    "Thong_tin_chi_tiet": [
+        {
+            "Linh_vuc": [
+                "Thiên tai & Môi trường",
+                "Giao thông & Hạ tầng"
+            ],
+            "Muc_do_nguy_hiem": [
+                "Cảnh báo nguy hiểm"
+            ],
+            "url": [
+                "https://vietnamnet.vn/cap-nhat-106-diem-ngap-23-tuyen-duong-te-liet-co-noi-sau-toi-1m-o-ha-noi-2450166.html"
+            ]
+        }
+    ]
+},
+{
+    "Dia_diem": [
+        "Mỹ Đình",
+        "Hà Nội",
+        "Tuyên Quang",
+        "Cao Bằng",
+        "Thái Nguyên",
+        "Phú Thọ",
+        "Lạng Sơn",
+        "Bắc Ninh"
+    ],
+    "Thong_tin_chi_tiet": [
+        {
+            "Linh_vuc": [
+                "Thiên tai & Môi trường",
+                "Giao thông & Hạ tầng"
+            ],
+            "Muc_do_nguy_hiem": [
+                "Cảnh báo nguy hiểm"
+            ],
+            "url": [
+                "https://vietnamnet.vn/tan-hoang-song-nuoc-tren-quang-truong-my-dinh-2450108.html"
+            ]
+        }
+    ]
+},
+{
+    "Dia_diem": [
+        "Bắc Bộ",
+        "Tuyên Quang",
+        "Cao Bằng",
+        "Thái Nguyên",
+        "Phú Thọ",
+        "Lạng Sơn",
+        "Bắc Ninh"
+    ],
+    "Thong_tin_chi_tiet": [
+        {
+            "Linh_vuc": [
+                "Thiên tai & Môi trường"
+            ],
+            "Muc_do_nguy_hiem": [
+                "Cảnh báo nguy hiểm"
+            ],
+            "url": [
+                "https://vietnamnet.vn/ly-giai-mien-bac-mưa-lon-nhu-trut-nuoc-so-sanh-hai-dot-mưa-cuc-doan-tai-ha-noi-2449369.html"
+            ]
+        }
+    ]
+},
+{
+    "Dia_diem": [
+        "phố Tú Mỡ",
+        "Phạm Hùng",
+        "Yên Hòa",
+        "Hà Nội"
+    ],
+    "Thong_tin_chi_tiet": [
+        {
+            "Linh_vuc": [
+                "Cháy nổ & Sự cố kỹ thuật",
+                "Giao thông & Hạ tầng"
+            ],
+            "Muc_do_nguy_hiem": [
+                "Cảnh báo nguy hiểm"
+            ],
+            "url": [
+                "https://vietnamnet.vn/nguoi-phu-nu-nga-khi-di-qua-cho-ngap-canh-sat-ha-noi-lien-he-voi-dien-luc-2450018.html"
+            ]
+        }
+    ]
+},
+{
+    "Dia_diem": [
+        "Trường Tiểu học Đông Ngạc"
+    ],
+    "Thong_tin_chi_tiet": [
+        {
+            "Linh_vuc": [
+                "Thiên tai & Môi trường",
+                "Giao thông & Hạ tầng"
+            ],
+            "Muc_do_nguy_hiem": [
+                "Cảnh báo nguy hiểm"
+            ],
+            "url": [
+                "https://vietnamnet.vn/muon-kieu-chong-ngap-o-thu-do-dan-chi-biet-ngao-ngan-tho-dai-2449978.html"
+            ]
+        }
+    ]
+},
+{
+    "Dia_diem": [
+        "đường Lê Quang Đạo",
+        "Bến xe Mỹ Đình",
+        "Bắc Ninh",
+        "cầu Nhật Tân"
+    ],
+    "Thong_tin_chi_tiet": [
+        {
+            "Linh_vuc": [
+                "Thiên tai & Môi trường",
+                "Giao thông & Hạ tầng"
+            ],
+            "Muc_do_nguy_hiem": [
+                "Cảnh báo nguy hiểm"
+            ],
+            "url": [
+                "https://vietnamnet.vn/mat-phuong-huong-khi-doi-mat-vinh-keangnam-cang-nuoc-sau-my-dinh-2446859.html"
+            ]
+        }
+    ]
+},
+{
+    "Dia_diem": [
+        "Hà Nội",
+        "cầu vượt Mai Dịch"
+    ],
+    "Thong_tin_chi_tiet": [
+        {
+            "Linh_vuc": [
+                "Thiên tai & Môi trường",
+                "Giao thông & Hạ tầng"
+            ],
+            "Muc_do_nguy_hiem": [
+                "Cảnh báo nguy hiểm"
+            ],
+            "url": [
+                "https://vietnamnet.vn/con-ac-mong-luc-sang-som-o-thu-do-nuoc-menh-mong-tan-vanh-dai-3-tren-cao-2449954.html"
+            ]
+        }
+    ]
+},
+{
+    "Dia_diem": [
+        "Tân Xuân",
+        "Phạm Văn Đồng",
+        "Khu đô thị Ciputra"
+    ],
+    "Thong_tin_chi_tiet": [
+        {
+            "Linh_vuc": [
+                "Giao thông & Hạ tầng"
+            ],
+            "Muc_do_nguy_hiem": [
+                "Cảnh báo trung bình"
+            ],
+            "url": [
+                "https://vietnamnet.vn/phan-no-tai-xe-lao-xe-trong-mua-ngap-suyt-can-trung-nguoi-di-bo-o-ha-noi-2449898.html"
+            ]
+        }
+    ]
+},
+{
+    "Dia_diem": [
+        "Ngã ba Mỹ Đình – Thiên Hiền",
+        "Lê Đức Thọ (quảng trường SVĐ Mỹ Đình)",
+        "Phú Xá (ngã ba Phú Xá – Phúc Hòa)",
+        "Dương Đình Nghệ – Nam Trung Yên (sau Keangnam)",
+        "Võ Chí Công (tòa nhà UDIC)",
+        "Hoàng Quốc Việt (Đại học Điện lực)",
+        "Phan Văn Trường (cổng chợ – doanh trại quân đội)",
+        "Hoa Bằng (ngõ 99)",
+        "Trần Cung (cây xăng A38)",
+        "Trần Bình (từ UBND phường Mai Dịch đến Bệnh viện 19/8)",
+        "Đỗ Đức Dục (đường vào Miếu Đầm)",
+        "Nguyễn Trãi (trường ĐH Khoa học Xã hội và Nhân văn)"
+    ],
+    "Thong_tin_chi_tiet": [
+        {
+            "Linh_vuc": [
+                "Thiên tai & Môi trường"
+            ],
+            "Muc_do_nguy_hiem": [
+                "Nhắc nhở"
+            ],
+            "url": [
+                "https://vietnamnet.vn/clip-tia-set-cuc-manh-xe-toac-bau-troi-tai-ha-noi-2449883.html"
+            ]
+        }
+    ]
+},
+{
+    "Dia_diem": [
+        "Bắc Bộ",
+        "Thanh Hóa",
+        "Thái Nguyên",
+        "Bắc Ninh"
+    ],
+    "Thong_tin_chi_tiet": [
+        {
+            "Linh_vuc": [
+                "Thiên tai & Môi trường"
+            ],
+            "Muc_do_nguy_hiem": [
+                "Cảnh báo trung bình"
+            ],
+            "url": [
+                "https://vietnamnet.vn/vung-may-doi-luu-it-dich-chuyen-ha-noi-mua-lon-xoi-xa-den-khi-nao-2449370.html"
+            ]
+        }
+    ]
+},
+{
+    "Dia_diem": [
+        "Sóc Sơn",
+        "Mễ Trì"
+    ],
+    "Thong_tin_chi_tiet": [
+        {
+            "Linh_vuc": [
+                "Thiên tai & Môi trường",
+                "Giao thông & Hạ tầng"
+            ],
+            "Muc_do_nguy_hiem": [
+                "Cảnh báo trung bình"
+            ],
+            "url": [
+                "https://vietnamnet.vn/danh-sach-cac-diem-co-nguy-co-ngap-ung-tai-thanh-pho-ha-noi-ngay-7-10-2449840.html"
+            ]
+        }
+    ]
+},
+{
+    "Dia_diem": [
+        "Ô Chợ Dừa",
+        "Hải Bối",
+        "Đại Mỗ",
+        "Phú Lương"
+    ],
+    "Thong_tin_chi_tiet": [
+        {
+            "Linh_vuc": [
+                "Thiên tai & Môi trường",
+                "Giao thông & Hạ tầng"
+            ],
+            "Muc_do_nguy_hiem": [
+                "Cảnh báo nguy hiểm"
+            ],
+            "url": [
+                "https://vietnamnet.vn/cap-nhat-69-diem-ngap-ung-o-ha-noi-vao-sang-7-10-2449850.html"
+            ]
+        }
+    ]
+},
+{
+    "Dia_diem": [
+        "Ngã tư Văn Phú",
+        "Phố Hạ Quyết Yên (phường Yên Hoà)"
+    ],
+    "Thong_tin_chi_tiet": [
+        {
+            "Linh_vuc": [
+                "Thiên tai & Môi trường",
+                "Giao thông & Hạ tầng"
+            ],
+            "Muc_do_nguy_hiem": [
+                "Cảnh báo nguy hiểm"
+            ],
+            "url": [
+                "https://vietnamnet.vn/mua-du-doi-suot-dem-ha-noi-lai-ngap-nang-o-nhieu-tuyen-pho-2449371.html"
+            ]
+        }
+    ]
+},
+{
+    "Dia_diem": [
+        "Miền Bắc"
+    ],
+    "Thong_tin_chi_tiet": [
+        {
+            "Linh_vuc": [
+                "Thiên tai & Môi trường"
+            ],
+            "Muc_do_nguy_hiem": [
+                "Cảnh báo trung bình"
+            ],
+            "url": [
+                "https://vietnamnet.vn/du-bao-thoi-tiet-7-10-2025-mien-bac-co-noi-mưa-rat-to-ha-noi-mat-diu-2449396.html"
+            ]
+        }
+    ]
+},
+{
+    "Dia_diem": [
+        "Đê Nguyễn Khoái"
+    ],
+    "Thong_tin_chi_tiet": [
+        {
+            "Linh_vuc": [
+                "Cháy nổ & Sự cố kỹ thuật",
+                "Giao thông & Hạ tầng"
+            ],
+            "Muc_do_nguy_hiem": [
+                "Cảnh báo trung bình"
+            ],
+            "url": [
+                "https://thanhnien.vn/ha-noi-chi-ngan-sach-26-ti-sua-cau-vinh-tuy-sau-vu-chay-bai-xe-185251007204709566.htm"
+            ]
+        }
+    ]
+},
+{
+    "Dia_diem": [
+        "Đới đứt gãy Cao Bằng - Tiên Yên"
+    ],
+    "Thong_tin_chi_tiet": [
+        {
+            "Linh_vuc": [
+                "Thiên tai & Môi trường"
+            ],
+            "Muc_do_nguy_hiem": [
+                "Nhắc nhở"
+            ],
+            "url": [
+                "https://thanhnien.vn/dong-dat-34-do-o-cao-bang-185251007190037575.htm"
+            ]
+        }
+    ]
+}
+]
